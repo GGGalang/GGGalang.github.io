@@ -9,3 +9,21 @@
 	width: 100px;
 	height: 100px;
 }
+
+.bloomberg-logo{
+  background: url('./htdocs/images/covid.png') no-repeat -103px -1px;
+	width: 100px;
+	height: 100px;
+}
+
+.vaccine{
+  background: url('./htdocs/images/covid.png') no-repeat -1px -1px;
+  width: 100px;
+	height: 100px;
+}
+
+.kid-vaccine{
+  background: url('./htdocs/images/covid.png') no-repeat -309px -1px;
+  width: 100px;
+	height: 100px;
+}

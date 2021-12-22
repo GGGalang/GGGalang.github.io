@@ -89,6 +89,30 @@ a {
 	height: 275px;
 }
 
+.doh-footer{
+  background: url('./htdocs/images/footer.png') no-repeat -33px -1px;
+	width: 30px;
+	height: 30px;
+}
+
+.rappler-footer{
+  background: url('./htdocs/images/footer.png') no-repeat -1px -1px;
+	width: 30px;
+	height: 30px;
+}
+
+.inquirer-footer{
+  background: url('./htdocs/images/footer.png') no-repeat -1px -33px;
+	width: 30px;
+	height: 30px;
+}
+
+.logo-footer{
+  background: url('./htdocs/images/icons.png') no-repeat -35px -69px;
+  width: 30px;
+  height: 30px;
+}
+
 .navbar {
   background-color: rgb(59, 89, 152);
   overflow: hidden;
@@ -262,6 +286,46 @@ a {
   font-family: arial;
   font-weight: bold;
   padding-top: 10px;
+}
+
+.doh-link{
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 25px;
+  position: absolute;
+  right: 75%;
+  top: 50%;
+}
+
+.rappler-link{
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 25px;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+}
+
+.inquirer-link{
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 25px;
+  position: absolute;
+  right: 25%;
+  top: 50%;
+}
+
+.logo-link{
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 25px;
+  position: absolute;
+  right: 15%;
+  top: 50%;
 }
 
 #selfcredit {
