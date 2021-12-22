@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pasama: COVID</title>
+		<link rel="icon" type="image/ico" href="./images/logo.ico">
+
+		<link rel="stylesheet" href="../stylesheet.css">
+		<link rel="stylesheet" href="../covid-images.css">
+
+		<meta charset="UTF-8">
+		<meta name="author" content="Paolo Galang">
+		<meta name="section" content="9-Argon">
+		<meta name="description" content="PASAMA COVID Section.">
+		<meta name="keywords" content="PASAMA, news, newsbits, COVID-19">
+
+	</head>
+
+	<style>
+		body {
+			overflow: scroll;
+			height: 1450px;
+			overflow-x: hidden;
+		}
+	</style>
+
+<!--NAVBAR BEYOND THIS POINT-->
+
+	<body>
+		<div>
+			<span>
+
+				<nav class="navbar">
+					<span class="open-slide">
+						<a href="#" onclick="openSlideMenu()">
+							<svg width="30" height="30"> <!--Sidebar 3 lines thingie-->
+								<path d="M0,7 30,7" stroke="#f4f4f4" stroke-width="5"/>
+								<path d="M0,16 30,16" stroke="#f4f4f4" stroke-width="5"/>
+								<path d="M0,25 30,25" stroke="#f4f4f4" stroke-width="5"/>
+							</svg>
+						</a>
+						<button type="button" onclick="selfcredits()" style="background-color: inherit; border: none;"><img id="logo"></button>
+					</span>
+					<span>
+						<header>
+							<h1 class="home"><a href="./images/mmfiles/index.html" style="font-size: 23px;">PASAMA: Paalala sa Mga Madla <img height="30" width="30" class="home-logo, general-icon"></a></h1>
+						</header>
+					</span>
+				</nav>
+
+				<div id="side-menu" class=side-nav>
+					<p><img class="menu-icon" height="30" width="30"> Menu</p>
+					<button type="button" id="exit-button" onclick="closeSlideMenu()">&times;</button>
+          <a href="./images/mmfiles/index.html"><img class="home-icon"> HOME</a>
+					<a href="covid.html"><img class="covid-icon"> Covid-19</a>
+					<a href="politics.html"><img class="politics-icon"> Politics</a>
+					<a href="crime.html"><img class="crime-icon"> Crime</a>
+					<a href="general.html"><img class="general-icon"> General</a>
+					<a href="about.html"><img class="about-icon"> About</a>
+				</div>
+			</span>
+		</div>
+
+<!--BREAKING NEWS-->
+		<div>
+			<span>
+				<nav class="cat-borders" style="padding: 1px; position: absolute; width: 1343px; margin-top: 65px;"> <!--Break news-->
+					<!--Again, deprecated, recommend not using.-->
+					<marquee width="100%" direction="left">
+						<p class="scroll-left" style="font-weight: bold;">OMICRON: Overseas threat of a new variant!</p>
+					</marquee>
+				</nav>
+			</span>
+		</div>
+
+		<div id="selfcredit" style="display: none;"> <!--Easter egg :D-->
+			<marquee width="100%" direction="left" height="100px" width="250px" style="position: absolute; top: 150px; right: 40px;">
+				This was made by Paolo Galang of 9 - Argon, PSHS CBZRC B2025. Nothing to see here!
+			</marquee>
+		</div>
+<!--TABLE HELL PART 2: NEWS VERSION-->
+
+		<div style="position: absolute; margin-top: 125px;">
+			<table style="border: solid #aaa; border-collapse: collapse; width: 1350px;">
+
+<!--COVID HEADING-->
+        <tr>
+          <td rowspan="2" class="news-border" style="padding: 30px;">
+            <img class="covid-heading">
+						<br><p style="font-size: 10px;">Credits: CDC</p>
+          </td>
+
+          <th>
+            <h2 class="news-heads" style="font-size: 50px; position: absolute; top: 25px; padding: 0px;">COVID-19</h2>
+          </th>
+        </tr>
+
+        <tr>
+          <td class="news-border">
+            <p style="text-align: left; padding: 50px;">COVID, also known as Coronavirus Disease, is a virus that has spread alll over the globe, causing a major pandemic that has taken its toll. The pandemic of such a large scale caused economic shutdowns, large-scale standstills, and more importantly, loss of life wherever you go. This pandemic is said to have changed the path of history for its wide effects on mankind. However, as vaccines are continuously being handed out, the effects we feel are slowly coming to a halt. That said, the advent of a new variant called Omicron is on its way to slow that impending normalization, as it wreaks more havoc across the globe. (WHO, 2021).</p>
+          </td>
+        </tr>
+
+<!--NEWS1-->
+<!--do note aach news header is a hyperlink. This is what people click for more specific sources-->
+
+				<tr>
+					<td rowspan="2" class="news-border news-extras">
+						<img class="doh-logo">
+						<br><p style="font-size: 10px;">Credits: DOH</p>
+					</td>
+
+					<th>
+						<h2 class="news-heads"><a href="https://doh.gov.ph/covid-19/case-tracker">Covid Cases for December 20</a></h2>
+					</th>
+				</tr>
+
+				<tr>
+					<td class="news-border">
+						<p style="text-align: left;">As of the latest report brought out by the Department of Health at the time of writing, there are only 263 new cases. Forty-five (45) people died, while 390 were able to be relieved of the virus. As Christmas slowly comes closer, DOH still encourages people to be even more aware of their surroundsings and stay strict and cautious of the virus. Spokesperson Vergeire stated that the DOH doesn't want another outbreak to happen, such as that in other countries(DOH, 2021).</p>
+					</td>
+				</tr>
+
+<!--NEWS2-->
+				<tr>
+					<td rowspan="2" class="news-border news-extras">
+						<img class="children-vacc">
+						<br><p style="font-size: 10px;">Credits: Chinatimes</p>
+					</td>
+
+					<th>
+						<h2 class="news-heads"><a href="https://www.rappler.com/nation/pfizer-application-emergency-use-authorization-covid-19-vaccine-5-11-year-olds/">Children's Covid Vaccination Rollout</a></h2>
+					</th>
+				</tr>
+
+				<tr>
+					<td class="news-border">
+						<p style="text-align: left;">More and more people everyday get vaccinated against the disease and pandemic, which now includes children! As scientists try to find ways to make the vaccine more inclusive, Pfizer has now applied for vaccine use in children 5-11 years old. Should this be approved by the DOH and FDA, children in that age group will now recieve the Pfizer vaccine, possibly with other brands as more will eventually apply for approval form the government (Rappler, 2021).</p>
+					</td>
+				</tr>
+
+<!--NEWS3-->
+				<tr>
+					<td rowspan="2" class="news-border news-extras">
+						<img src="../Astrazeneca.jpg" alt="Vaccine rollout" class="images">
+						 <br><p style="font-size: 10px;">Credits: Tim Reckman</p>
+					</td>
+
+					<th>
+						<h2 class="news-heads"><a href="https://www.cnnphilippines.com/news/2021/10/20/Galvez-COVID-19-vaccine-supply-no-longer-a-problem.html">Vaccine Rollout in The Philippines</a></h2>
+					</th>
+				</tr>
+
+				<tr>
+					<td class="news-border">
+						<p style="text-align: left;">As more people are eager to get their share of the vaccine, supply stabilizes. More vaccines are continuously entering the country as numerous airplanes being them in. However, delays still happen in the process of vaccination due to inefficient distribution, causing effects on the overall chain of vaccination for people (CNN, 2021).</p>
+					</td>
+				</tr>
+
+<!--NEWS 4-->
+				<tr>
+					<td rowspan="2" class="news-border news-extras">
+						<img src="../Bloomberg.png" alt="Bloomberg Logo" class="images">
+		 				<br><p style="font-size: 10px;">Credits: Bloomberg</p>
+					</td>
+
+					<th>
+						<h2 class="news-heads"><a href="https://www.bloomberg.com/news/articles/2021-10-27/philippines-still-worst-place-in-covid-even-as-cases-ease-off">Philippines The Worst Place to Be in COVID</a></h2>
+					</th>
+				</tr>
+
+				<tr>
+					<td class="news-border">
+						<p style="text-align: left;">According to research done by the news agency Bloomberg, the Philippines fares as the worst on vaccine coverage with only 26% of the population covered. This is based on different factors such as mortality rates, vaccine rates, positivity rates and more (Bloomberg, 2021). Filipino government officials beg to differ, and suggest Bloomberg to use better factors in comparing different nations when it comes to COVID.</p>
+					</td>
+				</tr>
+
+<!--NEWS 5-->
+				<tr>
+					<td rowspan="2" class="news-border news-extras">
+						<img src="../vaccination2.jpg" alt="Vaccinations" class="images">
+						<br><p style="font-size: 10px;">Credits: The NY Times</p>
+					</td>
+
+					<th>
+						<h2 class="news-heads"><a href="https://www.rappler.com/nation/philippines-begins-nationwide-covid-19-vaccination-minors-aged-12-17-november-5-2021">Vaccinations for Minors aged 12 - 17 to Start this November</a></h2>
+					</th>
+				</tr>
+
+				<tr>
+					<td class="news-border">
+						<p style="text-align: left;">It was recently confirmed by Vaccine Czar Carlito Galvez Jr. that vaccinations for minors aged 12-17 are to start this early November. According to the Health Undersecretary Maria Rosario Vergeire, guidlines for this rollout are currently being drafted. It is expected that as with the adults, those with comorbities are to be prioritized before the rest of the minority population (Rappler,2021).</p>
+					</td>
+				</tr>
+
+<!--https://www.rappler.com/nation/philippines-shortens-gap-between-covid-19-booster-shot-last-dose/-->
+
+      </table>
+    </div>
+
+<!--credits-->
+
+		<div style="position: fixed; bottom: 0%;"> <!--It's anchored and fixed to 0% of the website so if you zoom out it stays anchored.-->
+			<span>
+				<nav class=bottom>
+					<p style="text-align: center; color: white;">Website made by Paolo Galang, 2021. All image credits belong to their respective owners. <span style="font-weight: bold;">Logo and icon made by 99designs.</span></p>
+				</nav>
+			</span>
+		</div>
+
+<!--DO NOT TOUCH FUNCTIONS--> <!--Honestly didn't expect to see JS this early.-->
+		<script>
+
+			var clicks = 0;
+			var x;
+			var firstTime = 0;
+
+			function openSlideMenu(){ //Use double slashes instead of standard html commenting in js, noted
+				document.getElementById('side-menu').style.width = '250px';
+				document.getElementById('main').style.marginLeft = '250px';
+			}
+
+			function closeSlideMenu(){
+				document.getElementById('side-menu').style.width = '0';
+				document.getElementById('main').style.marginLeft = '0';
+			}
+
+			function unfinished(){ //Unfinished site alert script
+				alert("Sorry, but this site is unfinished!")
+			}
+
+			function selfcredits(){ //Easter egg script
+				clicks += 1;
+				var x = document.getElementById("selfcredit");
+
+				if (clicks == 19){
+  				if (x.style.display === "none") {
+    				x.style.display = "block";
+						clicks = 0;
+						if (firstTime == 0){
+							alert("Wow, you unlocked an easter egg! Click the logo again 19 more times to remove it, and 19 again to restore.")
+							firstTime = 1;
+						}
+  				} else {
+    				x.style.display = "none";
+						clicks = 0;
+  				}
+				}
+			}
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,11 @@
+.doh-logo{
+  background: url('./htdocs/images/covid.png') no-repeat -103px -103px;
+	width: 100px;
+	height: 100px;
+}
+
+.children-vacc{
+  background: url('./htdocs/images/covid.png') no-repeat -1px -103px;
+	width: 100px;
+	height: 100px;
+}

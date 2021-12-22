@@ -1,0 +1,269 @@
+body {
+  font-family: "Arial";
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#logo {
+  position: absolute;
+  display: block;
+  top: 15px;
+  background: url('./htdocs/images/icons.png') no-repeat -35px -69px;
+	width: 30px;
+	height: 30px;
+}
+
+.menu-icon{
+  background: url('./htdocs/images/icons.png') no-repeat -70px -36px;
+  width: 30px;
+  height: 30px;
+}
+
+.general-icon{
+  background: url('./htdocs/images/icons.png') no-repeat -37px -37px;
+	width: 30px;
+	height: 30px;
+  border: none;
+}
+
+.home-icon{
+  background: url('./htdocs/images/icons.png') no-repeat -70px -2px;
+	width: 30px;
+	height: 30px;
+}
+
+.covid-icon{
+  background: url('./htdocs/images/icons.png') no-repeat -36px -2px;
+	width: 30px;
+	height: 30px;
+}
+
+.politics-icon{
+  background: url('./htdocs/images/icons.png') no-repeat -2px -70px;
+	width: 30px;
+	height: 30px;
+}
+.crime-icon{
+  background: url('./htdocs/images/icons.png') no-repeat -2px -36px;
+	width: 30px;
+	height: 30px;
+}
+
+.about-icon{
+  background: url('./htdocs/images/icons.png') no-repeat -2px -2px;
+	width: 30px;
+	height: 30px;
+}
+
+.covid-topic{
+  background: url('./htdocs/images/topics.png') no-repeat -104px -229px;
+	width: 100px;
+	height: 100px;
+}
+
+.politics-topic{
+  background: url('./htdocs/images/topics.png') no-repeat -2px -229px;
+	width: 100px;
+	height: 100px;
+}
+
+.crime-topic{
+  background: url('./htdocs/images/topics.png') no-repeat -263px -2px;
+	width: 100px;
+	height: 100px;
+}
+
+.general-topic{
+  background: url('./htdocs/images/topics.png') no-repeat -365px -2px;
+	width: 100px;
+	height: 100px;
+}
+
+.covid-heading{
+  background: url('./htdocs/images/topics.png') no-repeat -2px -346px;
+	width: 275px;
+	height: 275px;
+}
+
+.navbar {
+  background-color: rgb(59, 89, 152);
+  overflow: hidden;
+  height: 63px;
+  border: 2px solid black;
+  position: absolute;
+  width: 1345px;
+}
+
+.kategorya {
+  overflow: hidden;
+  height: 63px;
+  position: absolute;
+  top: 340px;
+  left: 555px;
+  width: 1350px;
+}
+
+.navbar a{
+  float: left;
+  display: block;
+  color: #f4f4f4;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover{ /*All classes with hover are just for when the mouse "hovers" over the element.*/
+  background-color: #cccccc;
+  color: #000;
+}
+
+.center{
+  display: inline-table;
+  text-align: center;
+  margin-left: 104px;
+  margin-right: 104px;
+  padding: 5px;
+}
+
+.side-nav{
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;  /*HOLASLKASKLAS ANG COOL NITO AAAAHAHAHAHA*/
+}
+
+.side-nav a{
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #ccc;
+  display: block;
+  transition: 0.3s;
+}
+
+.side-nav p{
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #ccc;
+  display: block;
+  transition: 0.3s;
+}
+
+.side-nav a:hover{
+  color: #fff;
+}
+
+#exit-button {
+  border: none;
+  background-color: inherit;
+  color: #ccc;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+#exit-button:hover{
+  color: #fff;
+}
+
+#side-button{
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #ccc;
+  display: block;
+  transition: 0.3s;
+  border: none;
+  background-color: inherit;
+}
+
+#side-button:hover{
+  color: #fff;
+}
+
+#margin {
+  transition:marginLeft 0.5s;
+  padding: 22px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.home{
+  margin-left: 475px;
+  position: absolute;
+  top: -15px;
+}
+
+.home-logo{
+  position: absolute;
+  margin-left: 5px;
+  top: 10px;
+}
+
+.generics {
+  text-align: center;
+  font-weight: bold;
+}
+
+.home a:hover{
+  background-color: rgb(66, 103,178);
+  color: white;
+}
+
+.default {
+  border: 2px solid black;
+}
+
+.bottom {
+  background-color: rgb(59, 89, 152);
+  overflow: hidden;
+  height: 40px;
+  width: 1335px;
+  border: 2px solid black;
+  margin: 30px 0 0 0;
+  padding: 5px;
+}
+
+.categories{
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.cat-borders{
+  border: 2px solid black;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.news-border {
+  border-bottom: solid #aaa;
+}
+
+.news-extras {
+  padding: 20px 10px 10px 10px;
+  text-align: center;
+}
+
+.news-heads  {
+  text-align: left;
+  font-family: arial;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+#selfcredit {
+  text-decoration: none;
+}
