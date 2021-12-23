@@ -1,0 +1,35 @@
+.duterte-face{
+  background: url('./htdocs/images/politics.png') no-repeat -1px -96px;
+	width: 140px;
+	height: 93px;
+}
+
+.marcos-face{
+  background: url('./htdocs/images/politics.png') no-repeat -143px -87px;
+	width: 150px;
+	height: 84px;
+}
+
+.leni-typhoon{
+  background: url('./htdocs/images/politics.png') no-repeat -153px -173px;
+	width: 140px;
+	height: 93px;
+}
+
+.misinformation{
+  background: url('./htdocs/images/politics.png') no-repeat -1px -191px;
+	width: 150px;
+	height: 59px;
+}
+
+.bonggo-face{
+  background: url('./htdocs/images/politics.png') no-repeat -1px -1px;
+	width: 140px;
+	height: 93px;
+}
+
+.ping-face{
+  background: url('./htdocs/images/politics.png') no-repeat -143px -1px;
+	width: 150px;
+	height: 84px;
+}

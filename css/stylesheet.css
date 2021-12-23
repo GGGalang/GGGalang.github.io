@@ -27,7 +27,7 @@ a {
   background: url('./htdocs/images/icons.png') no-repeat -37px -37px;
 	width: 30px;
 	height: 30px;
-  border: none;
+  border: 0;
 }
 
 .home-icon{
@@ -87,6 +87,12 @@ a {
   background: url('./htdocs/images/topics.png') no-repeat -2px -346px;
 	width: 275px;
 	height: 275px;
+}
+
+.politics-heading{
+  background: url('./htdocs/images/topics.png') no-repeat -504px -1px;
+	width: 225px;
+	height: 225px;
 }
 
 .doh-footer{
