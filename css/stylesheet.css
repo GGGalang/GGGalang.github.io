@@ -8,6 +8,30 @@ a {
   text-decoration: none;
 }
 
+#scroll-text {
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+
+  -moz-animation: my-animation 20s linear infinite;
+  -webkit-animation: my-animation 20s linear infinite; /*These webkit and moz things are for compatibility.*/
+  animation: my-animation 20s linear infinite;
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(65%);
+    -webkit-transform: translateX(65%);
+    transform: translateX(65%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
 #logo {
   position: absolute;
   display: block;
