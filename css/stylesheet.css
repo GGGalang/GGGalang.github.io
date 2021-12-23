@@ -95,6 +95,12 @@ a {
 	height: 225px;
 }
 
+.crime-heading{
+  background: url('./htdocs/images/topics.png') no-repeat -1px -1px;
+	width: 259px;
+	height: 194px;
+}
+
 .doh-footer{
   background: url('./htdocs/images/footer.png') no-repeat -33px -1px;
 	width: 30px;
