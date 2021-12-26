@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Pasama: HOME</title>
-		<link rel="icon" type="image/ico" href="../logo.ico">
+		<title>Pasama: GENERAL</title>
+		<link rel="icon" type="image/ico" href="./images/logo.ico">
 
-		<link rel="stylesheet" href="../../../stylesheet.css">
+		<link rel="stylesheet" href="../stylesheet.css">
+		<link rel="stylesheet" href="../general-images.css">
 
 		<meta charset="UTF-8">
 		<meta name="author" content="Paolo Galang">
 		<meta name="section" content="9-Argon">
-		<meta name="description" content="PASAMA Homepage.">
-		<meta name="keywords" content="PASAMA, news, newsbits">
+		<meta name="description" content="PASAMA GENERAL Section.">
+		<meta name="keywords" content="PASAMA, news, newsbits, Philippines, news">
 
 	</head>
 
 	<style>
 		body {
 			overflow: scroll;
-			height: 750px;
+			height: 950px;
 			overflow-x: hidden;
 		}
+
+    th p{
+      text-align: left;
+    }
+
+    p span{
+      font-weight: bold;
+    }
 	</style>
 
 <!--NAVBAR BEYOND THIS POINT-->
-<!--All links will be replaced with '#' if the website for it hasn't been made yet.-->
 
 	<body>
 		<div>
@@ -32,7 +40,7 @@
 				<nav class="navbar">
 					<span class="open-slide">
 						<a href="#" onclick="openSlideMenu()">
-							<svg width="30" height="30"> <!--Sidebar 3 lines SVG-->
+							<svg width="30" height="30"> <!--Sidebar 3 lines thingie-->
 								<path d="M0,7 30,7" stroke="#f4f4f4" stroke-width="5"/>
 								<path d="M0,16 30,16" stroke="#f4f4f4" stroke-width="5"/>
 								<path d="M0,25 30,25" stroke="#f4f4f4" stroke-width="5"/>
@@ -41,28 +49,26 @@
 						<button type="button" onclick="selfcredits()" style="background-color: inherit; border: none;"><img id="logo"></button>
 					</span>
 					<span>
-						<!--this is so that everytime it is clicked, it goes back to index.-->
-            <header>
-              <h1 class="home"><a href="index.html" style="font-size: 23px;">PASAMA: Paalala sa Mga Madla <img height="30" width="30" class="home-logo, general-icon"></a></h1>
-            </header>
-
-          </span>
+						<header>
+							<h1 class="home"><a href="./images/mmfiles/index.html" style="font-size: 23px;">PASAMA: Paalala sa Mga Madla <img height="30" width="30" class="home-logo, general-icon"></a></h1>
+						</header>
+					</span>
 				</nav>
 
 				<div id="side-menu" class=side-nav>
 					<p><img class="menu-icon" height="30" width="30"> Menu</p>
 					<button type="button" id="exit-button" onclick="closeSlideMenu()">&times;</button>
-          <a href="index.html"><img class="home-icon"> HOME</a>
-					<a href="../../covid.html"><img class="covid-icon"> Covid-19</a>
-					<a href="../../politics.html"><img class="politics-icon"> Politics</a>
-					<a href="../../crime.html"><img class="crime-icon"> Crime</a>
-					<a href="../../general.html"><img class="general-icon"> General</a>
-					<a href="../../about.html"><img class="about-icon"> About</a>
+          <a href="./images/mmfiles/index.html"><img class="home-icon"> HOME</a>
+					<a href="covid.html"><img class="covid-icon"> Covid-19</a>
+					<a href="politics.html"><img class="politics-icon"> Politics</a>
+					<a href="crime.html"><img class="crime-icon"> Crime</a>
+					<a href="general.html"><img class="general-icon"> General</a>
+					<a href="about.html"><img class="about-icon"> About</a>
 				</div>
 			</span>
 		</div>
 
-<!--BREAKING NEWS, BANNER, MGA KATEGORYA-->
+<!--BREAKING NEWS-->
 		<div>
 			<span>
 				<nav class="cat-borders" style="padding: 1px; position: absolute; width: 1343px; margin-top: 65px;"> <!--Breaking news-->
@@ -72,92 +78,80 @@
 			</span>
 		</div>
 
-		<div>
-			<span> <!--Event banner (Halalan)-->
-				<img src="../AirportPanorama.jpg" alt="Current Event Image Banner" style="width: 1350px; height: 200px; margin-top: 125px;">
-				<p style="font-size:10px;">Wikimedia Commons, 2007</p>
-			</span>
+		<div id="selfcredit" style="display: none;"> <!--Easter egg :D-->
+			<marquee width="100%" direction="left" height="100px" width="250px" style="position: absolute; top: 150px; right: 40px;">
+				This was made by Paolo Galang of 9 - Argon, PSHS CBZRC B2025. Nothing to see here!
+			</marquee>
 		</div>
+<!--MAIN BODY-->
 
-		<div class="kategorya">
-			<h2>MGA KATEGORYA</h2>
-		</div>
+		<div style="position: absolute; margin-top: 125px;">
+			<table style="border: solid #aaa; border-collapse: collapse; width: 1350px;">
 
-<!--TABLE HELL; CATEGORY IMAGES AND HYPERLINKS-->
+<!--HEADING-->
+        <tr>
+          <td rowspan="2" class="news-border" style="padding: 30px;">
+            <img src="./images/logo.ico" style="height: 250px; width: 250px;">
+						<br><p style="font-size: 10px;">Credits: 99designs</p>
+          </td>
 
-		<div style="position: absolute; margin-top: 70px">
-			<span style="text-align: center;">
+          <th>
+            <h2 class="news-heads" style="font-size: 50px; position: absolute; top: 25px; padding: 0px;">ABOUT US</h2>
+          </th>
+        </tr>
 
-<!--COVID-->
+        <tr>
+          <td class="news-border">
+            <p style="text-align: left; padding: 50px;">The PASAMA Project is quite literally a project, designed by a 14-year-old for his Computer Science class. This was a vision he had, one that he quite well knew that would serve some practical use if actually driven to completion, as it would serve as a good platform for aggregating news sources for viewers and users alike to get summaries of news quickly and unbiased, from different sources and thus different views.</p>
+          </td>
+        </tr>
 
-				<table class="cat-borders" style="position: absolute; margin-left: 50px;">
-					<tr>
-						<td><a href="../../covid.html"><img class="covid-topic"></a></td>
-					</tr>
-					<tr>
-						<td class="categories"><a href="../../covid.html">COVID-19</a><br><p style="font-size: 10px;">Credits: CDC</p></td>
-					</tr>
-				</table>
+        <tr>
+          <td rowspan="2" class="news-border" style="padding: 30px;">
+            <img src="./images/creator.jpg">
+						<br><p style="font-size: 10px;">The Man Behind it All</p>
+          </td>
 
-<!--POLITICS-->
+          <td>
+            <h2 class="news-heads" style="font-size: 50px; position: absolute; top: 325px; padding: 0px;">CREDITS</h2>
+          </td>
+        </tr>
 
-				<table class="cat-borders" style="position: absolute; margin-left: 400px;">
-					<tr>
-						<td><a href="../../politics.html"><img class="politics-topic"></a></td>
-					</tr>
-					<tr>
-						<td class="categories"><a href="../../politics.html">Politics</a><br><p style="font-size: 10px;">Credits: iStock</p></td>
-					</tr>
-				</table>
+        <tr>
+          <td class="news-border">
+            <p style="text-align: left; padding: 50px;">
+              <span> - Site Builder and Developer -</span> Geomad Paolo G. Galang
+              <br><br>
+              <span> - News Sources -</span> Pasama is built as an aggregate for news from different sites. Sources will vary.
+              <br><br>
+              <span>All images belong to their respective owners.</span> PASAMA does not have any ownership over them, and are willing to take them down upon due request.</p>
+          </td>
+        </tr>
 
-<!--CRIME-->
-
-				<table class="center cat-borders" style="position: absolute; margin-left: 800px;">
-					<tr>
-						<td><a href="../../crime.html"><img class="crime-topic"></a></td>
-					</tr>
-					<tr>
-						<td class="categories"><a href="../../crime.html">Crime</a><br><p style="font-size: 10px;">Credits: Wandtv</p></td>
-					</tr>
-				</table>
-
-<!--GENERAL NEWS-->
-
-				<table class="center cat-borders" style="position: absolute; margin-left: 1150px;">
-					<tr>
-						<td><a href="../../general.html"><img class="general-topic"></a></td>
-					</tr>
-					<tr>
-						<td class="categories"><a href="../../general.html">General</a><br><p style="font-size: 10px;">Credits: Wiki</p></td>
-					</tr>
-				</table>
-
-				<br><br><br>
-			</span>
-		</div>
+      </table>
+    </div>
 
 <!--credits-->
 
-		<div style="position: fixed; bottom: 0%;">
+		<div style="position: fixed; bottom: 0%;"> <!--It's anchored and fixed to 0% of the website so if you zoom out it stays anchored.-->
 			<span>
-        <footer>
-				      <nav class=bottom>
-								<p style="text-align: center;">
-									<a href="https://doh.gov.ph" class="doh-link"><img class="doh-footer">Official DOH Site</a>
-									<a href="https://www.rappler.com" class="rappler-link"><img class="rappler-footer">Official Rappler Site</a>
-									<a href="https://www.inquirer.net" class="inquirer-link"><img class="inquirer-footer">Official Inquirer Site</a>
-									<a href="https://www.99designs.com" class="logo-link"><img class="logo-footer">Logo</a>
-								</p>
-				      </nav>
-        </footer>
+				<nav class=bottom>
+					<p style="text-align: center;">
+						<a href="https://doh.gov.ph" class="doh-link"><img class="doh-footer">Official DOH Site</a>
+						<a href="https://www.rappler.com" class="rappler-link"><img class="rappler-footer">Official Rappler Site</a>
+						<a href="https://www.inquirer.net" class="inquirer-link"><img class="inquirer-footer">Official Inquirer Site</a>
+						<a href="https://www.99designs.com" class="logo-link"><img class="logo-footer">Logo</a>
+					</p>
+				</nav>
 			</span>
 		</div>
 
-
-<!--DO NOT TOUCH SCRIPTS/FUNCTIONS-->
+<!--DO NOT TOUCH FUNCTIONS-->
 		<script>
 
 			var clicks = 0;
+			var x;
+			var firstTime = 0;
 
 			function openSlideMenu(){ //Use double slashes instead of standard html commenting in js, noted
 				document.getElementById('side-menu').style.width = '250px';
@@ -169,15 +163,26 @@
 				document.getElementById('main').style.marginLeft = '0';
 			}
 
-			function unfinished(){
+			function unfinished(){ //Unfinished site alert script (UNUSED, All sites are finished)
 				alert("Sorry, but this site is unfinished!")
 			}
 
-			function selfcredits(){ //secret easter egg I just felt like I wanted to add :DD
+			function selfcredits(){ //Easter egg script
 				clicks += 1;
-				if (clicks == 20) {
-					alert("This was made by Paolo Galang of 9 - Argon, PSHS CBZRC B2025. Nothing to see here!");
-					clicks = 0;
+				var x = document.getElementById("selfcredit");
+
+				if (clicks == 19){
+  				if (x.style.display === "none") {
+    				x.style.display = "block";
+						clicks = 0;
+						if (firstTime == 0){
+							alert("Wow, you unlocked an easter egg! Click the logo again 19 more times to remove it, and 19 again to restore.")
+							firstTime = 1;
+						}
+  				} else {
+    				x.style.display = "none";
+						clicks = 0;
+  				}
 				}
 			}
 		</script>
