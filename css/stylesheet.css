@@ -330,6 +330,17 @@ a {
   padding-top: 10px;
 }
 
+.topic-headings{
+  font-size: 50px;
+  position: absolute;
+  top: 25px;
+  padding: 0px;
+}
+
+.ten{
+  font-size: 10px;
+}
+
 .doh-link{
   color: white;
   font-family: arial;
