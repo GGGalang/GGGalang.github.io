@@ -45,6 +45,60 @@ a {
   background: url('./htdocs/images/icons.png') no-repeat -70px -36px;
   width: 30px;
   height: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 90px;
+  right: 130px;
+}
+
+.general-title{
+  background: url('./htdocs/images/icons.png') no-repeat -37px -37px;
+	width: 30px;
+	height: 30px;
+  border: 0;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: -20px;
+}
+
+.home-icon{
+  background: url('./htdocs/images/icons.png') no-repeat -70px -2px;
+	width: 30px;
+	height: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 190px;
+  right: 120px;
+}
+
+.covid-icon{
+  background: url('./htdocs/images/icons.png') no-repeat -36px -2px;
+	width: 30px;
+	height: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 235px;
+  right: 95px;
+}
+
+.politics-icon{
+  background: url('./htdocs/images/icons.png') no-repeat -2px -70px;
+	width: 30px;
+	height: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 285px;
+  right: 115px;
+}
+.crime-icon{
+  background: url('./htdocs/images/icons.png') no-repeat -2px -36px;
+	width: 30px;
+	height: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 330px;
+  right: 125px;
 }
 
 .general-icon{
@@ -52,35 +106,20 @@ a {
 	width: 30px;
 	height: 30px;
   border: 0;
-}
-
-.home-icon{
-  background: url('./htdocs/images/icons.png') no-repeat -70px -2px;
-	width: 30px;
-	height: 30px;
-}
-
-.covid-icon{
-  background: url('./htdocs/images/icons.png') no-repeat -36px -2px;
-	width: 30px;
-	height: 30px;
-}
-
-.politics-icon{
-  background: url('./htdocs/images/icons.png') no-repeat -2px -70px;
-	width: 30px;
-	height: 30px;
-}
-.crime-icon{
-  background: url('./htdocs/images/icons.png') no-repeat -2px -36px;
-	width: 30px;
-	height: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 375px;
+  right: 100px;
 }
 
 .about-icon{
   background: url('./htdocs/images/icons.png') no-repeat -2px -2px;
 	width: 30px;
 	height: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 420px;
+  right: 125px;
 }
 
 .covid-topic{
@@ -269,12 +308,6 @@ a {
   margin-left: 475px;
   position: absolute;
   top: -15px;
-}
-
-.home-logo{
-  position: absolute;
-  margin-left: 5px;
-  top: 10px;
 }
 
 .generics {
