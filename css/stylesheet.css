@@ -125,6 +125,12 @@ a {
 	height: 194px;
 }
 
+.general-heading{
+  background: url('./htdocs/images/topics.png') no-repeat -262px -103px;
+	width: 240px;
+	height: 240px;
+}
+
 .doh-footer{
   background: url('./htdocs/images/footer.png') no-repeat -33px -1px;
 	width: 30px;
