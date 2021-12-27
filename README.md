@@ -52,28 +52,39 @@ Extra note: All images are sprites, except big ones (like the index banner) wher
 ## MAIN ARTICLE CODE
 ##### Here's an example of code for articles, so if you want to add one feel free to copy then paste this.
 ```
-<article> <!--Article semantic tag-->
+<article>
 
   <tr>
-    <td rowspan="2" class="news-border news-extras"> <!--First column, rowspan 2, accommodates article picture-->
-      <img class="article_pic"> <!--img class-->
-      <br><p class="ten">Credits: credits</p> <!--credits-->
+    <td rowspan="2" class="news-border news-extras">
+      <img class="article_pic">
+      <br><p class="ten">Credits: CREDITS</p>
     </td>
 
-    <th> <!--Second column, first row, accommodates article title and link.-->
+    <th>
       <h2 class="news-heads"><a href="link">ARTICLE TITLE</a></h2><p>DATE POSTED</p>
     </th>
   </tr>
 
-  <tr> <!--Second column, main article text and content.-->
+  <tr>
     <td class="news-border">
-      <p style="text-align: left;">Article main body</p>
+      <p style="text-align: left;">ARTICLE MAIN BODYy</p>
     </td>
   </tr>
 
 </article>
 ```
 
-*Extras: To add images, you can create a new spritesheet and create a class for it in the topic's respective css file (each topic has one).
+`<article>`:semantic tag, this does nothing really but it does give others extra information when looking at the code.
+`<img class="article_pic">`: replace the class with the image's css class. Or use a direct image. Read EXTRAS below.
+Other than that, replace the capitalized things with the appropriate items.
+For `CREDITS`, put credit where it's due,
+for `ARTICLE TITLE` put the article title
+for `DATE POSTED` put the date when the article was posted
+for `ARTICLE MAIN BODY` just place the paragraph summary of each article (and in-text citation at the end).
+
+Copy paste the result into the last part of the table in the respective topic of your article, right before the `</table>` tag.
+
+##### Extras:
+*To add images, you can create a new spritesheet and create a class for it in the topic's respective css file (each topic has one).
 *You can also just download an image file and directly link that, but that can lead to optimization issues.
 *If you want to use spritesheets, I really recomment that you do so only when you create BATCHES of articles, since creating a spritesheet and editing it one-by-one
