@@ -15,7 +15,7 @@ Needless to say, content may be outdated seeing as the site isn't live; it's a b
 
 ============================================================================================================================
 
-#NOTE ON YT EMBEDS:
+##NOTE ON YT EMBEDS:
 It's a continuous struggle for website creators to provide a smooth experience for users, and that's the case for this.
 YT Embeds do reduce total storage taken when you, dear user, download the repository, but at the cost of the need for wifi
 to view the video and an increase in the number of http requests when loading the site.
@@ -31,7 +31,7 @@ have the video load.)
 
 =============================================================================================================================
 
-#STYLESHEET NOTES:
+##STYLESHEET NOTES:
 1. I didn't bother adding pseudo classes for links such as visited.
 It's just weird to see the link be PERMANENTLY a different color, especially if it's a link
 like the home/title link or side menu links. I could add a visited state with the same properties but that's simply
@@ -47,7 +47,7 @@ Extra note: All images are sprites, except big ones (like the index banner) wher
 
 ============================================================================================================================
 
-#SOME DOCUMENTATION:
+##SOME DOCUMENTATION:
 
 ##MAIN ARTICLE CODE
 #####Here's an example of code for articles, so if you want to add one feel free to copy then paste this.
