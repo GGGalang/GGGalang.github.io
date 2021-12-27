@@ -56,18 +56,18 @@ Extra note: All images are sprites, except big ones (like the index banner) wher
 
   <tr>
     <td rowspan="2" class="news-border news-extras"> <!--First column, rowspan 2, accommodates article picture-->
-      <img class="**article_pic**"> <!--img class-->
-      <br><p class="ten">**Credits: credits**</p> <!--credits-->
+      <img class="article_pic"> <!--img class-->
+      <br><p class="ten">Credits: credits**</p> <!--credits-->
     </td>
 
     <th> <!--Second column, first row, accommodates article title and link.-->
-      <h2 class="news-heads"><a href="**link**">**ARTICLE TITLE**</a></h2><p>**DATE POSTED**</p>
+      <h2 class="news-heads"><a href="link">ARTICLE TITLE</a></h2><p>DATE POSTED</p>
     </th>
   </tr>
 
   <tr> <!--Second column, main article text and content.-->
     <td class="news-border">
-      <p style="text-align: left;">**Article main body**</p>
+      <p style="text-align: left;">Article main body</p>
     </td>
   </tr>
 
