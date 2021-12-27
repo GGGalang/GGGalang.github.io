@@ -42,19 +42,74 @@ a {
 }
 
 .menu-icon{
-  background: url('./htdocs/images/icons.png') no-repeat -70px -36px;
-  width: 30px;
-  height: 30px;
+  background: url('./htdocs/images/icons.png') no-repeat -35px -1px;
+  width: 32px;
+  height: 32px;
   display: inline-block;
   position: absolute;
   top: 90px;
   right: 130px;
 }
 
+.index-title{
+  background: url('./htdocs/images/icons.png') no-repeat -1px -1px;
+	width: 32px;
+	height: 32px;
+  border: 0;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: -20px;
+}
+
+.covid-title{
+  background: url('./htdocs/images/icons.png') no-repeat -1px -69px;
+	width: 32px;
+	height: 32px;
+  border: 0;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: -20px;
+}
+
+.politics-title{
+  background: url('./htdocs/images/icons.png') no-repeat -69px -1px;
+	width: 32px;
+	height: 32px;
+  border: 0;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: -20px;
+}
+
+.crime-title{
+  background: url('./htdocs/images/icons.png') no-repeat -1px -35px;
+	width: 32px;
+	height: 32px;
+  border: 0;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: -20px;
+}
+
 .general-title{
-  background: url('./htdocs/images/icons.png') no-repeat -37px -37px;
-	width: 30px;
-	height: 30px;
+  background: url('./htdocs/images/icons.png') no-repeat -69px -35px;
+	width: 32px;
+	height: 32px;
+  border: 0;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: -20px;
+}
+
+.about-title{
+  background: url('./htdocs/images/icons.png') no-repeat -35px -35px;
+	width: 32px;
+	height: 32px;
   border: 0;
   display: inline-block;
   position: absolute;
@@ -63,9 +118,9 @@ a {
 }
 
 .home-icon{
-  background: url('./htdocs/images/icons.png') no-repeat -70px -2px;
-	width: 30px;
-	height: 30px;
+  background: url('./htdocs/images/icons.png') no-repeat -1px -1px;
+	width: 32px;
+	height: 32px;
   display: inline-block;
   position: absolute;
   top: 190px;
@@ -73,9 +128,9 @@ a {
 }
 
 .covid-icon{
-  background: url('./htdocs/images/icons.png') no-repeat -36px -2px;
-	width: 30px;
-	height: 30px;
+  background: url('./htdocs/images/icons.png') no-repeat -1px -69px;
+	width: 32px;
+	height: 32px;
   display: inline-block;
   position: absolute;
   top: 235px;
@@ -83,18 +138,18 @@ a {
 }
 
 .politics-icon{
-  background: url('./htdocs/images/icons.png') no-repeat -2px -70px;
-	width: 30px;
-	height: 30px;
+  background: url('./htdocs/images/icons.png') no-repeat -69px -1px;
+	width: 32px;
+	height: 32px;
   display: inline-block;
   position: absolute;
   top: 285px;
   right: 115px;
 }
 .crime-icon{
-  background: url('./htdocs/images/icons.png') no-repeat -2px -36px;
-	width: 30px;
-	height: 30px;
+  background: url('./htdocs/images/icons.png') no-repeat -1px -35px;
+	width: 32px;
+	height: 32px;
   display: inline-block;
   position: absolute;
   top: 330px;
@@ -102,9 +157,9 @@ a {
 }
 
 .general-icon{
-  background: url('./htdocs/images/icons.png') no-repeat -37px -37px;
-	width: 30px;
-	height: 30px;
+  background: url('./htdocs/images/icons.png') no-repeat -69px -35px;
+	width: 32px;
+	height: 32px;
   border: 0;
   display: inline-block;
   position: absolute;
@@ -113,9 +168,9 @@ a {
 }
 
 .about-icon{
-  background: url('./htdocs/images/icons.png') no-repeat -2px -2px;
-	width: 30px;
-	height: 30px;
+  background: url('./htdocs/images/icons.png') no-repeat -35px -35px;
+	width: 32px;
+	height: 32px;
   display: inline-block;
   position: absolute;
   top: 420px;
