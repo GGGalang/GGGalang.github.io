@@ -5,7 +5,7 @@ This project is quite literally the project of a 14-year-old. Please expect impe
 
 The PASAMA Project: Paalala SA Mga Madla
 Dedicated to serving news and information to the people, from the people. Sources from different yet all reputable outlets and websites, with links for further reading yet a small
-summary in the form of a paaragraph for each news bit. Dedicated to serving true, unbiased information to the best of my ability.
+summary in the form of a paragraph for each news bit. Dedicated to serving true, unbiased information to the best of my ability.
 
 Bugs be expected, easter eggs be found!
 
@@ -20,7 +20,7 @@ It's a continuous struggle for website creators to provide a smooth experience f
 YT Embeds do reduce total storage taken when you, dear user, download the repository, but at the cost of the need for wifi
 to view the video and an increase in the number of http requests when loading the site.
 
-I considered lazy loading/defering the requests after seeing solutions online to try and ease the burden on the site,
+I considered lazy loading/deferring the requests after seeing solutions online to try and ease the burden on the site,
 but the requirement for multimedia files was that they AUTOPLAY. On most if not all lazy loading solutions, they require the user
 to click on the video before it actually plays. I haven't actually seen any lazy loading solutions for autoplay vids,
 due to the fact that they need to be automatically played.
@@ -77,14 +77,14 @@ Extra note: All images are sprites, except big ones (like the index banner) wher
 `<article>`:semantic tag, this does nothing really but it does give others extra information when looking at the code.<br>
 `<img class="article_pic">`: replace the class with the image's css class. Or use a direct image. Read EXTRAS below.<br>
 Other than that, replace the capitalized things with the appropriate items.<br>
-For `CREDITS`, put credit where it's due,<br>
+For `CREDITS`, put credit where it's due<br>
 for `ARTICLE TITLE` put the article title<br>
 for `DATE POSTED` put the date when the article was posted<br>
 for `ARTICLE MAIN BODY` just place the paragraph summary of each article (and in-text citation at the end).<br>
 
 Copy paste the result into the last part of the table in the respective topic of your article, right before the `</table>` tag.
 
-##### Extras:
-*To add images, you can create a new spritesheet and create a class for it in the topic's respective css file (each topic has one).
-*You can also just download an image file and directly link that, but that can lead to optimization issues.
-*If you want to use spritesheets, I really recomment that you do so only when you create BATCHES of articles, since creating a spritesheet and editing it one-by-one
+### Extras:
+-**To add images**, you can create a new spritesheet and create a class for it in the topic's respective css file (each topic has one).<br>
+-**You can also just download an image file and directly link that**, but that can lead to optimization issues.<br>
+-**If you want to use spritesheets**, I really recommend that you do so only when you create BATCHES of articles, since creating a spritesheet and editing it one-by-one
