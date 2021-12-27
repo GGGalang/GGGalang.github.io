@@ -9,9 +9,15 @@ summary in the form of a paragraph for each news bit. Dedicated to serving true,
 
 Bugs be expected, easter eggs be found!
 
-NOTE: Quite obviously, this website isn't a live one. By the time you, dear user, have opened this file, the news contained inside may be a week, a day, a month, a year, or who knows even a decade old! This website is simply an IDEA, a VISION, and a PROJECT. At the moment I have no intentions of creating a live one hosted on a server but who knows what the future will bring.
+## Testing Sites:
+1. Github Pages: [Here](gggalang.github.io)
+2. Replit hosting (not as reliable as the former, and only served as testbench): [Here](https://2QProjArgonGalang-1.paologalang.repl.co)
 
-Needless to say, content may be outdated seeing as the site isn't live; it's a bunch of files that won't update on your system.
+NOTE: The Github Pages site will recieve updates whenever I commit to github. Replit will not, unless I manually update it as well which is a hassle, which is why it only served as a testbench.
+
+NOTE: If you downloaded the release zip onto your system, it won't get updated, unlike the live sites on github (replit doesn't get updated automatically either). You have to manually redownload the releases or directories everytime you want to get news updates (whenever I update, since in the first place this is simply a project) if you want to keep using the system-only version.
+
+Needless to say, content may be outdated seeing as the site on your system isn't live; it's a bunch of files that won't update on your system.
 
 ============================================================================================================================
 
