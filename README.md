@@ -31,7 +31,7 @@ have the video load.)
 
 =============================================================================================================================
 
-##STYLESHEET NOTES:
+## STYLESHEET NOTES:
 1. I didn't bother adding pseudo classes for links such as visited.
 It's just weird to see the link be PERMANENTLY a different color, especially if it's a link
 like the home/title link or side menu links. I could add a visited state with the same properties but that's simply
@@ -47,11 +47,11 @@ Extra note: All images are sprites, except big ones (like the index banner) wher
 
 ============================================================================================================================
 
-##SOME DOCUMENTATION:
+## SOME DOCUMENTATION:
 
-##MAIN ARTICLE CODE
-#####Here's an example of code for articles, so if you want to add one feel free to copy then paste this.
-`
+## MAIN ARTICLE CODE
+##### Here's an example of code for articles, so if you want to add one feel free to copy then paste this.
+```
 <article> <!--Article semantic tag-->
 
   <tr>
@@ -72,7 +72,7 @@ Extra note: All images are sprites, except big ones (like the index banner) wher
   </tr>
 
 </article>
-`
+```
 
 *Extras: To add images, you can create a new spritesheet and create a class for it in the topic's respective css file (each topic has one).
 *You can also just download an image file and directly link that, but that can lead to optimization issues.
