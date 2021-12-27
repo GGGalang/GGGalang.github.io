@@ -43,7 +43,7 @@ Title Navbar>Side Menu>Main body/Content>Footer>Misc (easter eggs). Ctrl + F alw
 3. I created more css files for images in each content page so that it won't clutter this one even more.
 God knows how long this will be if all image classes are here.
 
-Extra note: All images are sprites, except big ones (like the index banner) where it's impractical to turn them into sprites.
+Extra note: All images are sprites, except big ones (like the index banner) where it's impractical to turn them into sprites, and favicon ico files.
 
 ============================================================================================================================
 
@@ -87,4 +87,4 @@ Copy paste the result into the last part of the table in the respective topic of
 ### Extras:
 -**To add images**, you can create a new spritesheet and create a class for it in the topic's respective css file (each topic has one).<br>
 -**You can also just download an image file and directly link that**, but that can lead to optimization issues.<br>
--**If you want to use spritesheets**, I really recommend that you do so only when you create BATCHES of articles, since creating a spritesheet and editing it one-by-one
+-**If you want to use spritesheets**, I really recommend that you do so only when you create BATCHES of articles, since creating a spritesheet and editing it one-by-one will lead to annoying problems where spritesheet image locations change if you use online spritesheet creators. **You could make your own spritesheet and avoid the problem though**.
