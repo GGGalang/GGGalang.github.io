@@ -27,3 +27,18 @@ due to the fact that they need to be automatically played.
 Maybe I'll keep looking and searching for said solution, but until then, I hope the embeds don't make a difference (except of course
 when you aren't connected to the net. Realistically speaking, if this was a website then anyone using it would have net and thus
 have the video load.)
+
+
+STYLESHEET NOTES:
+1. I didn't bother adding pseudo classes for links such as visited.
+It's just weird to see the link be PERMANENTLY a different color, especially if it's a link
+like the home/title link or side menu links. I could add a visited state with the same properties but that's simply
+impractical.
+
+2. This stylesheet is long so be careful as you might get confused. The classes/ids are generally in order from:
+Title Navbar>Side Menu>Main body/Content>Footer>Misc (easter eggs). Ctrl + F always helps!
+
+3. I created more css files for images in each content page so that it won't clutter this one even more.
+God knows how long this will be if all image classes are here.
+
+Extra note: All images are sprites, except big ones (like the index banner) where it's impractical to turn them into sprites.
