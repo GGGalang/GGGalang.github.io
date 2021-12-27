@@ -249,6 +249,11 @@ a {
   height: 30px;
 }
 
+.breaking{
+  text-align: center;
+  font-weight: bold;
+}
+
 .navbar {
   background-color: rgb(59, 89, 152);
   overflow: hidden;
@@ -402,6 +407,17 @@ a {
   padding: 5px;
 }
 
+.news-div{
+  position: absolute;
+  margin-top: 120px;
+}
+
+.news-table{
+  border: solid #aaa;
+  border-collapse: collapse;
+  width: 1350px;"
+}
+
 .news-border {
   border-bottom: solid #aaa;
 }
@@ -427,6 +443,11 @@ a {
 
 .ten{
   font-size: 10px;
+}
+
+.footer-div{
+  position: fixed;
+  bottom: 0%;
 }
 
 .doh-link{
@@ -471,4 +492,10 @@ a {
 
 #selfcredit {
   text-decoration: none;
+}
+
+.easter-egg{
+  position: absolute;
+  top: 150px;
+  right: 40px;
 }

@@ -47,7 +47,7 @@
 					</span>
 					<span>
 						<header>
-							<h1 class="home"><a href="./images/mmfiles/index.html" style="font-size: 23px;">PASAMA: Paalala sa Mga Madla<div height="30" width="30" class="politics-title"></div></h1></a>
+							<h1 class="home"><a href="./images/mmfiles/index.html" style="font-size: 23px;">PASAMA: Paalala sa Mga Madla<div class="politics-title"></div></h1></a>
 						</header>
 					</span>
 				</nav>
@@ -70,21 +70,21 @@
 			<span>
 				<nav class="cat-borders" style="padding: 1px; position: absolute; width: 1343px; margin-top: 65px;"> <!--Breaking news-->
 						<!--Finally changed from deprecated marquee to translate css-->
-						<p style="text-align: center; font-weight: bold;" id="scroll-text">OMICRON: Overseas threat of a new variant!</p>
+						<p class="breaking" id="scroll-text">OMICRON: Overseas threat of a new variant!</p>
 				</nav>
 			</span>
 		</div>
 
 		<div id="selfcredit" style="display: none;"> <!--Easter egg :D-->
-			<p id="scroll-text" style="position: absolute; top: 150px; right: 40px;">
+			<p id="scroll-text" class="easter-egg">
 				This was made by Paolo Galang of 9 - Argon, PSHS CBZRC B2025. Nothing to see here!
 			</p>
 		</div>
 
 <!--TABLE HELL PART 2: NEWS VERSION-->
 
-		<div style="position: absolute; margin-top: 120px;">
-			<table style="border: solid #aaa; border-collapse: collapse; width: 1350px;">
+		<div class="news-div">
+			<table class="news-table">
 
 <!--HEADING-->
         <tr>
@@ -241,7 +241,7 @@
 
 <!--credits-->
 
-		<div style="position: fixed; bottom: 0%;"> <!--It's anchored and fixed to 0% of the website so if you zoom out it stays anchored.-->
+		<div class="footer-div">
 			<span>
 				<nav class=bottom>
 					<p style="text-align: center;">
@@ -254,46 +254,8 @@
 			</span>
 		</div>
 
-<!--DO NOT TOUCH FUNCTIONS--> <!--Honestly didn't expect to see JS this early.-->
-		<script>
-
-			var clicks = 0;
-			var x;
-			var firstTime = 0;
-
-			function openSlideMenu(){ //Use double slashes instead of standard html commenting in js, noted
-				document.getElementById('side-menu').style.width = '250px';
-				document.getElementById('main').style.marginLeft = '250px';
-			}
-
-			function closeSlideMenu(){
-				document.getElementById('side-menu').style.width = '0';
-				document.getElementById('main').style.marginLeft = '0';
-			}
-
-			function unfinished(){ //Unfinished site alert script
-				alert("Sorry, but this site is unfinished!")
-			}
-
-			function selfcredits(){ //Easter egg script
-				clicks += 1;
-				var x = document.getElementById("selfcredit");
-
-				if (clicks == 19){
-  				if (x.style.display === "none") {
-    				x.style.display = "block";
-						clicks = 0;
-						if (firstTime == 0){
-							alert("Wow, you unlocked an easter egg! Click the logo again 19 more times to remove it, and 19 again to restore.")
-							firstTime = 1;
-						}
-  				} else {
-    				x.style.display = "none";
-						clicks = 0;
-  				}
-				}
-			}
-		</script>
+		<!--DO NOT TOUCH-->
+		<script src="scripts.js"></script> <!--Created a js file instead-->
 	</body>
 
 </html>

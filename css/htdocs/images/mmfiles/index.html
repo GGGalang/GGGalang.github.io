@@ -38,12 +38,12 @@
 								<path d="M0,25 30,25" stroke="#f4f4f4" stroke-width="5"/>
 							</svg>
 						</a>
-						<button type="button" onclick="selfcredits()" style="background-color: inherit; border: none;"><img id="logo"></button>
+						<button type="button" onclick="indexselfcredits()" style="background-color: inherit; border: none;"><img id="logo"></button>
 					</span>
 					<span>
 						<!--this is so that everytime it is clicked, it goes back to index.-->
             <header>
-              <h1 class="home"><a href="index.html" style="font-size: 23px;">PASAMA: Paalala sa Mga Madla<div height="30" width="30" class="index-title"></div></h1></a>
+              <h1 class="home"><a href="index.html" style="font-size: 23px;">PASAMA: Paalala sa Mga Madla<div class="index-title"></div></h1></a>
             </header>
 
           </span>
@@ -67,7 +67,7 @@
 			<span>
 				<nav class="cat-borders" style="padding: 1px; position: absolute; width: 1343px; margin-top: 65px;"> <!--Breaking news-->
 						<!--Finally changed from deprecated marquee to translate css-->
-						<p style="text-align: center; font-weight: bold;" id="scroll-text">OMICRON: Overseas threat of a new variant!</p>
+						<p class="breaking" id="scroll-text">OMICRON: Overseas threat of a new variant!</p>
 				</nav>
 			</span>
 		</div>
@@ -138,7 +138,7 @@
 
 <!--credits-->
 
-		<div style="position: fixed; bottom: 0%;">
+		<div class="footer-div">
 			<span>
         <footer>
 				      <nav class=bottom>
@@ -155,32 +155,7 @@
 
 
 <!--DO NOT TOUCH SCRIPTS/FUNCTIONS-->
-		<script>
-
-			var clicks = 0;
-
-			function openSlideMenu(){ //Use double slashes instead of standard html commenting in js, noted
-				document.getElementById('side-menu').style.width = '250px';
-				document.getElementById('main').style.marginLeft = '250px';
-			}
-
-			function closeSlideMenu(){
-				document.getElementById('side-menu').style.width = '0';
-				document.getElementById('main').style.marginLeft = '0';
-			}
-
-			function unfinished(){
-				alert("Sorry, but this site is unfinished!")
-			}
-
-			function selfcredits(){ //secret easter egg I just felt like I wanted to add :DD
-				clicks += 1;
-				if (clicks == 20) {
-					alert("This was made by Paolo Galang of 9 - Argon, PSHS CBZRC B2025. Nothing to see here!");
-					clicks = 0;
-				}
-			}
-		</script>
+		<script src="../../scripts.js"></script>
 	</body>
 
 </html>
