@@ -15,7 +15,7 @@ Needless to say, content may be outdated seeing as the site isn't live; it's a b
 
 ============================================================================================================================
 
-##NOTE ON YT EMBEDS:
+## NOTE ON YT EMBEDS:
 It's a continuous struggle for website creators to provide a smooth experience for users, and that's the case for this.
 YT Embeds do reduce total storage taken when you, dear user, download the repository, but at the cost of the need for wifi
 to view the video and an increase in the number of http requests when loading the site.
