@@ -10,14 +10,14 @@ summary in the form of a paragraph for each news bit. Dedicated to serving true,
 Bugs be expected, easter eggs be found!
 
 ## Testing Sites:
-1. Github Pages: [Here](gggalang.github.io)
+1. Github Pages (**RECOMMENDED**): [Here](gggalang.github.io)
 2. Replit hosting (not as reliable as the former, and only served as testbench): [Here](https://2QProjArgonGalang-1.paologalang.repl.co)
 
-NOTE: The Github Pages site will recieve updates whenever I commit to github. Replit will not, unless I manually update it as well which is a hassle, which is why it only served as a testbench.
+NOTE: The Github Pages site will recieve updates whenever I commit to github. Replit will not, unless I manually update it as well which is a hassle, which is why it only served as a testbench. **As stated, the Github Pages site is recommended for usage**. You could consider the replit one as simply a *proof-of-concept*.
 
 NOTE: If you downloaded the release zip onto your system, it won't get updated, unlike the live sites on github (replit doesn't get updated automatically either). You have to manually redownload the releases or directories everytime you want to get news updates (whenever I update, since in the first place this is simply a project) if you want to keep using the system-only version.
 
-Needless to say, content may be outdated seeing as the site on your system isn't live; it's a bunch of files that won't update on your system.
+**EDIT** As of December 28, 2021 at 8:45AM, the Github Pages site isn't trigerring any red pages anymore (for now...). The replit hosted site is still triggering red pages however. In any case, still don't expect the *quickest* page response on both sites. It is still **recommended to use the Github Pages hosted site** as all updates and commits go live there after a few minutes of posting only.
 
 ============================================================================================================================
 
