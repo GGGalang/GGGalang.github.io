@@ -9,18 +9,25 @@ summary in the form of a paragraph for each news bit. Dedicated to serving true,
 
 Bugs be expected, easter eggs be found!
 
-## Testing Sites:
-1. Github Pages (**RECOMMENDED**): [Here](https://gggalang.github.io/)
-2. Replit hosting (not as reliable as the former, and only served as testbench): [Here](https://2QProjArgonGalang-1.paologalang.repl.co)
+## Testing Site:
+1. Github Pages (**New Domain!**): [Here](https://www.pasama.ml/)
 
-### READ VERY IMPORTANT
-In both cases, **you'll first encounter a blank page containing only the text "Click me to proceed to the site"**. **Don't worry, this is normal** and only serves as a small captcha and a workaround on a certain annoying thing I faced when creating the site. This might be fixed in v2.0 but I'll leave it for now due to it possibly causing chrome to trigger red-screens again on the github sites page when I just fixed that T^T
+## READ VERY IMPORTANT (TEST SITE)
+As of writing, the site is still under testing and is fairly new. Thus, chrome (and other browsers) deemed it fit to smack it with a "red alert", which tells all users that the site is "unsafe". **It is not**, and can be proven by the code that the site doesn't even gather your data at all. This actually already happened before in an old release, when the site was newly launched. This was resolved, until it happened again this time due to me changing the domain from github's default provided domain to a custom made one. I'm hoping it'll eventually be gone but for now, follow these steps when you experience a red alert:
 
-NOTE: The Github Pages site will recieve updates whenever I commit to github. Replit will not, unless I manually update it as well which is a hassle, which is why it only served as a testbench. **As stated, the Github Pages site is recommended for usage**. You could consider the replit one as simply a *proof-of-concept*.
+#### RED ALERT STEPS
+1. Click the "Details" button
+2. Click "visit this unsafe site".
 
-NOTE: If you downloaded the release zip onto your system, it won't get updated, unlike the live sites on github (replit doesn't get updated automatically either). You have to manually redownload the releases or directories everytime you want to get news updates (whenever I update, since in the first place this is simply a project) if you want to keep using the system-only version.
+Wabam! You're all done, and it should just direct you to the site itself. If the red alert doesn't show up in the first place, great! Nothing to worry about.
 
-**EDIT:** As of December 28, 2021 at 8:45AM, the Github Pages site isn't trigerring any red pages anymore (for now...). The replit hosted site is still triggering red pages however. In any case, still don't expect the *quickest* page response on both sites. It is still **recommended to use the Github Pages hosted site** as all updates and commits go live there after a few minutes of posting only.
+### FURTHER READING, WEBSITE
+
+When you enter the site, **you'll first encounter a blank page containing only the text "Click me to proceed to the site"**. **Don't worry, this is normal** and only serves as a small captcha and a workaround on a certain annoying thing I faced when creating the site. This might be fixed in v2.0 but I'll leave it for now due to it possibly causing chrome to trigger red-screens again on the page when I just fixed that T^T
+
+NOTE: The Github Pages site will recieve updates whenever I commit to github. **As stated, the Github Pages site is recommended for usage, instead of the zip**. If you look at the commit history, I used to have another website hosted from a site called replit. I decided to drop that.
+
+NOTE: If you downloaded the release zip onto your system, it won't get updated, unlike the live site on github. You have to manually redownload the releases or directories everytime you want to get news updates (whenever I update, since in the first place this is simply a project) if you want to keep using the system-only version.
 
 ============================================================================================================================
 
