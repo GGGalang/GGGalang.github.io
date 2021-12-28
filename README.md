@@ -13,6 +13,9 @@ Bugs be expected, easter eggs be found!
 1. Github Pages (**RECOMMENDED**): [Here](https://gggalang.github.io/)
 2. Replit hosting (not as reliable as the former, and only served as testbench): [Here](https://2QProjArgonGalang-1.paologalang.repl.co)
 
+#### READ VERY IMPORTANT
+In both cases, you'll first encounter a blank page containing only the text "Click me to proceed to tge site". Don't worry, this is normal and only serves as a small captcha and a workaround on a certain annoying thing I faced when creating the site. This might be fixed in v2.0 but I'll leave it for now due to it possibly causing chrome to trigger red-screens again on the github sites page when I just fixed that T^T
+
 NOTE: The Github Pages site will recieve updates whenever I commit to github. Replit will not, unless I manually update it as well which is a hassle, which is why it only served as a testbench. **As stated, the Github Pages site is recommended for usage**. You could consider the replit one as simply a *proof-of-concept*.
 
 NOTE: If you downloaded the release zip onto your system, it won't get updated, unlike the live sites on github (replit doesn't get updated automatically either). You have to manually redownload the releases or directories everytime you want to get news updates (whenever I update, since in the first place this is simply a project) if you want to keep using the system-only version.
