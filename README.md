@@ -10,7 +10,7 @@ summary in the form of a paragraph for each news bit. Dedicated to serving true,
 Bugs be expected, easter eggs be found!
 
 ## Testing Sites:
-1. Github Pages (**RECOMMENDED**): [Here](gggalang.github.io)
+1. Github Pages (**RECOMMENDED**): [Here](https://gggalang.github.io/)
 2. Replit hosting (not as reliable as the former, and only served as testbench): [Here](https://2QProjArgonGalang-1.paologalang.repl.co)
 
 NOTE: The Github Pages site will recieve updates whenever I commit to github. Replit will not, unless I manually update it as well which is a hassle, which is why it only served as a testbench. **As stated, the Github Pages site is recommended for usage**. You could consider the replit one as simply a *proof-of-concept*.
