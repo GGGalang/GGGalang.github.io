@@ -464,44 +464,33 @@ a {
   bottom: 0%;
 }
 
-.doh-link{
+.doh-link, .rappler-link, .inquirer-link, .logo-link{
   color: white;
   font-family: arial;
   font-weight: bold;
   font-size: 25px;
   position: absolute;
-  right: 75%;
   top: 50%;
+}
+
+.doh-link{
+  right: 75%;
 }
 
 .rappler-link{
-  color: white;
-  font-family: arial;
-  font-weight: bold;
-  font-size: 25px;
-  position: absolute;
   right: 50%;
-  top: 50%;
 }
 
 .inquirer-link{
-  color: white;
-  font-family: arial;
-  font-weight: bold;
-  font-size: 25px;
-  position: absolute;
   right: 25%;
-  top: 50%;
 }
 
 .logo-link{
-  color: white;
-  font-family: arial;
-  font-weight: bold;
-  font-size: 25px;
-  position: absolute;
   right: 15%;
-  top: 50%;
+}
+
+.rappler-link:hover, .inquirer-link:hover, .doh-link:hover, .logo-link:hover{
+  background-color: rgb(66, 103,178);
 }
 
 #selfcredit {
