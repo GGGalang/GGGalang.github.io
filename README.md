@@ -21,13 +21,16 @@ As of writing, the site is still under testing and is fairly new. Thus, chrome (
 
 Wabam! You're all done, and it should just direct you to the site itself. If the red alert doesn't show up in the first place, great! Nothing to worry about.
 
+### NOTE
+As of writing, the red alerts are gone, but you still never know. I'll keep the instructions just in case they come back.
+
 ### FURTHER READING, WEBSITE
 
 When you enter the site, **you'll first encounter a blank page containing only the text "Click me to proceed to the site"**. **Don't worry, this is normal** and only serves as a small captcha and a workaround on a certain annoying thing I faced when creating the site. This might be fixed in v2.0 but I'll leave it for now due to it possibly causing chrome to trigger red-screens again on the page when I just fixed that T^T
 
-NOTE: The Github Pages site will recieve updates whenever I commit to github. **As stated, the Github Pages site is recommended for usage, instead of the zip**. If you look at the commit history, I used to have another website hosted from a site called replit. I decided to drop that.
+**NOTE:** The Github Pages site will recieve updates whenever I commit to github. **As stated, the Github Pages site is recommended for usage, instead of the zip**. If you look at the commit history, I used to have another website hosted from a site called replit. I decided to drop that.
 
-NOTE: If you downloaded the release zip onto your system, it won't get updated, unlike the live site on github. You have to manually redownload the releases or directories everytime you want to get news updates (whenever I update, since in the first place this is simply a project) if you want to keep using the system-only version.
+**NOTE:** If you downloaded the release zip onto your system, it won't get updated, unlike the live site on github. You have to manually redownload the releases or directories everytime you want to get news updates (whenever I update, since in the first place this is simply a project) if you want to keep using the system-only version.
 
 ============================================================================================================================
 
@@ -52,6 +55,7 @@ have the video load.)
 It's just weird to see the link be PERMANENTLY a different color, especially if it's a link
 like the home/title link or side menu links. I could add a visited state with the same properties but that's simply
 impractical.
+ - The newsbite links themselves, as well as the home topics a-tags have visited and active states, though.
 
 2. This stylesheet is long so be careful as you might get confused. The classes/ids are generally in order from:
 Title Navbar>Side Menu>Main body/Content>Footer>Misc (easter eggs). Ctrl + F always helps!
