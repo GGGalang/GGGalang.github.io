@@ -17,7 +17,7 @@ NOTE: The Github Pages site will recieve updates whenever I commit to github. Re
 
 NOTE: If you downloaded the release zip onto your system, it won't get updated, unlike the live sites on github (replit doesn't get updated automatically either). You have to manually redownload the releases or directories everytime you want to get news updates (whenever I update, since in the first place this is simply a project) if you want to keep using the system-only version.
 
-**EDIT** As of December 28, 2021 at 8:45AM, the Github Pages site isn't trigerring any red pages anymore (for now...). The replit hosted site is still triggering red pages however. In any case, still don't expect the *quickest* page response on both sites. It is still **recommended to use the Github Pages hosted site** as all updates and commits go live there after a few minutes of posting only.
+**EDIT:** As of December 28, 2021 at 8:45AM, the Github Pages site isn't trigerring any red pages anymore (for now...). The replit hosted site is still triggering red pages however. In any case, still don't expect the *quickest* page response on both sites. It is still **recommended to use the Github Pages hosted site** as all updates and commits go live there after a few minutes of posting only.
 
 ============================================================================================================================
 
