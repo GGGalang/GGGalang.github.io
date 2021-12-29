@@ -50,13 +50,13 @@ a {
   position: absolute;
   display: block;
   top: 15px;
-  background: url('./htdocs/images/icons.png') no-repeat -35px -69px;
+  background: url('../images/icons.png') no-repeat -35px -69px;
 	width: 30px;
 	height: 30px;
 }
 
 .menu-icon{
-  background: url('./htdocs/images/icons.png') no-repeat -35px -1px;
+  background: url('../images/icons.png') no-repeat -35px -1px;
   width: 32px;
   height: 32px;
   display: inline-block;
@@ -66,7 +66,7 @@ a {
 }
 
 .index-title{
-  background: url('./htdocs/images/icons.png') no-repeat -1px -1px;
+  background: url('../images/icons.png') no-repeat -1px -1px;
 	width: 32px;
 	height: 32px;
   border: 0;
@@ -77,7 +77,7 @@ a {
 }
 
 .covid-title{
-  background: url('./htdocs/images/icons.png') no-repeat -1px -69px;
+  background: url('../images/icons.png') no-repeat -1px -69px;
 	width: 32px;
 	height: 32px;
   border: 0;
@@ -88,7 +88,7 @@ a {
 }
 
 .politics-title{
-  background: url('./htdocs/images/icons.png') no-repeat -69px -1px;
+  background: url('../images/icons.png') no-repeat -69px -1px;
 	width: 32px;
 	height: 32px;
   border: 0;
@@ -99,7 +99,7 @@ a {
 }
 
 .crime-title{
-  background: url('./htdocs/images/icons.png') no-repeat -1px -35px;
+  background: url('../images/icons.png') no-repeat -1px -35px;
 	width: 32px;
 	height: 32px;
   border: 0;
@@ -110,7 +110,7 @@ a {
 }
 
 .general-title{
-  background: url('./htdocs/images/icons.png') no-repeat -69px -35px;
+  background: url('../images/icons.png') no-repeat -69px -35px;
 	width: 32px;
 	height: 32px;
   border: 0;
@@ -121,7 +121,7 @@ a {
 }
 
 .about-title{
-  background: url('./htdocs/images/icons.png') no-repeat -35px -35px;
+  background: url('../images/icons.png') no-repeat -35px -35px;
 	width: 32px;
 	height: 32px;
   border: 0;
@@ -132,7 +132,7 @@ a {
 }
 
 .home-icon{
-  background: url('./htdocs/images/icons.png') no-repeat -1px -1px;
+  background: url('../images/icons.png') no-repeat -1px -1px;
 	width: 32px;
 	height: 32px;
   display: inline-block;
@@ -142,7 +142,7 @@ a {
 }
 
 .covid-icon{
-  background: url('./htdocs/images/icons.png') no-repeat -1px -69px;
+  background: url('../images/icons.png') no-repeat -1px -69px;
 	width: 32px;
 	height: 32px;
   display: inline-block;
@@ -152,7 +152,7 @@ a {
 }
 
 .politics-icon{
-  background: url('./htdocs/images/icons.png') no-repeat -69px -1px;
+  background: url('../images/icons.png') no-repeat -69px -1px;
 	width: 32px;
 	height: 32px;
   display: inline-block;
@@ -161,7 +161,7 @@ a {
   right: 115px;
 }
 .crime-icon{
-  background: url('./htdocs/images/icons.png') no-repeat -1px -35px;
+  background: url('../images/icons.png') no-repeat -1px -35px;
 	width: 32px;
 	height: 32px;
   display: inline-block;
@@ -171,7 +171,7 @@ a {
 }
 
 .general-icon{
-  background: url('./htdocs/images/icons.png') no-repeat -69px -35px;
+  background: url('../images/icons.png') no-repeat -69px -35px;
 	width: 32px;
 	height: 32px;
   border: 0;
@@ -182,7 +182,7 @@ a {
 }
 
 .about-icon{
-  background: url('./htdocs/images/icons.png') no-repeat -35px -35px;
+  background: url('../images/icons.png') no-repeat -35px -35px;
 	width: 32px;
 	height: 32px;
   display: inline-block;
@@ -192,73 +192,73 @@ a {
 }
 
 .covid-topic{
-  background: url('./htdocs/images/topics.png') no-repeat -104px -229px;
+  background: url('../images/topics.png') no-repeat -104px -229px;
 	width: 100px;
 	height: 100px;
 }
 
 .politics-topic{
-  background: url('./htdocs/images/topics.png') no-repeat -2px -229px;
+  background: url('../images/topics.png') no-repeat -2px -229px;
 	width: 100px;
 	height: 100px;
 }
 
 .crime-topic{
-  background: url('./htdocs/images/topics.png') no-repeat -263px -2px;
+  background: url('../images/topics.png') no-repeat -263px -2px;
 	width: 100px;
 	height: 100px;
 }
 
 .general-topic{
-  background: url('./htdocs/images/topics.png') no-repeat -365px -2px;
+  background: url('../images/topics.png') no-repeat -365px -2px;
 	width: 100px;
 	height: 100px;
 }
 
 .covid-heading{
-  background: url('./htdocs/images/topics.png') no-repeat -2px -346px;
+  background: url('../images/topics.png') no-repeat -2px -346px;
 	width: 275px;
 	height: 275px;
 }
 
 .politics-heading{
-  background: url('./htdocs/images/topics.png') no-repeat -504px -1px;
+  background: url('../images/topics.png') no-repeat -504px -1px;
 	width: 225px;
 	height: 225px;
 }
 
 .crime-heading{
-  background: url('./htdocs/images/topics.png') no-repeat -1px -1px;
+  background: url('../images/topics.png') no-repeat -1px -1px;
 	width: 259px;
 	height: 194px;
 }
 
 .general-heading{
-  background: url('./htdocs/images/topics.png') no-repeat -262px -103px;
+  background: url('../images/topics.png') no-repeat -262px -103px;
 	width: 240px;
 	height: 240px;
 }
 
 .doh-footer{
-  background: url('./htdocs/images/footer.png') no-repeat -33px -1px;
+  background: url('../images/footer.png') no-repeat -33px -1px;
 	width: 30px;
 	height: 30px;
 }
 
 .rappler-footer{
-  background: url('./htdocs/images/footer.png') no-repeat -1px -1px;
+  background: url('../images/footer.png') no-repeat -1px -1px;
 	width: 30px;
 	height: 30px;
 }
 
 .inquirer-footer{
-  background: url('./htdocs/images/footer.png') no-repeat -1px -33px;
+  background: url('../images/footer.png') no-repeat -1px -33px;
 	width: 30px;
 	height: 30px;
 }
 
 .logo-footer{
-  background: url('./htdocs/images/icons.png') no-repeat -35px -69px;
+  background: url('../images/icons.png') no-repeat -35px -69px;
   width: 30px;
   height: 30px;
 }

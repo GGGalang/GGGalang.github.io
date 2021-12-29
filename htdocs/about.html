@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pasama: GENERAL</title>
+		<link rel="icon" type="image/ico" href="../images/logo.ico">
+
+		<link rel="stylesheet" href="../css/stylesheet.css">
+
+		<meta charset="UTF-8">
+		<meta name="author" content="Paolo Galang">
+		<meta name="section" content="9-Argon">
+		<meta name="description" content="PASAMA ABOUT Section.">
+		<meta name="keywords" content="PASAMA, About">
+
+	</head>
+
+	<style>
+		body {
+			overflow: scroll;
+			height: 950px;
+			overflow-x: hidden;
+		}
+
+    th p{
+      text-align: left;
+    }
+
+    p span{
+      font-weight: bold;
+    }
+	</style>
+
+<!--NAVBAR BEYOND THIS POINT-->
+
+	<body>
+		<div>
+			<span>
+
+				<nav class="navbar">
+					<span class="open-slide">
+						<a href="#" onclick="openSlideMenu()">
+							<svg width="30" height="30"> <!--Sidebar 3 lines thingie-->
+								<path d="M0,7 30,7" stroke="#f4f4f4" stroke-width="5"/>
+								<path d="M0,16 30,16" stroke="#f4f4f4" stroke-width="5"/>
+								<path d="M0,25 30,25" stroke="#f4f4f4" stroke-width="5"/>
+							</svg>
+						</a>
+						<button type="button" onclick="selfcredits()" style="background-color: inherit; border: none;"><img id="logo"></button>
+					</span>
+					<span>
+						<header>
+							<h1 class="home"><a href="../index.html" style="font-size: 23px;">PASAMA: Paalala sa Mga Madla<div class="about-title"></div></h1></a>
+						</header>
+					</span>
+				</nav>
+				<!--Side menu-->
+				<div id="side-menu" class=side-nav>
+					<p>Menu</p><div class="menu-icon" height="30" width="30"></div>
+					<button type="button" id="exit-button" onclick="closeSlideMenu()">&times;</button>
+          <a href="../index.html"><div class="home-icon"></div> HOME</a>
+					<a href="covid.html"><div class="covid-icon"></div> Covid-19</a>
+					<a href="politics.html"><div class="politics-icon"></div> Politics</a>
+					<a href="crime.html"><div class="crime-icon"></div> Crime</a>
+					<a href="general.html"><div class="general-icon"></div> General</a>
+					<a href="about.html"><div class="about-icon"></div> About</a>
+				</div>
+			</span>
+		</div>
+
+<!--BREAKING NEWS-->
+		<div>
+			<span>
+				<nav class="cat-borders" style="padding: 1px; position: absolute; width: 1343px; margin-top: 65px;"> <!--Breaking news-->
+						<!--Finally changed from deprecated marquee to translate css-->
+						<p class="breaking" id="scroll-text">OMICRON: Overseas threat of a new variant!</p>
+				</nav>
+			</span>
+		</div>
+
+    <div id="selfcredit" style="display: none;"> <!--Easter egg :D-->
+			<p id="scroll-text" class="easter-egg">
+				This was made by Paolo Galang of 9 - Argon, PSHS CBZRC B2025. Nothing to see here!
+			</p>
+		</div>
+
+<!--MAIN BODY-->
+
+		<div class="news-div">
+			<table class="news-table">
+
+<!--HEADING-->
+        <tr>
+          <td rowspan="2" class="news-border" style="padding: 30px;">
+            <img src="../images/logo.ico" style="height: 250px; width: 250px;">
+						<br><p style="font-size: 10px;">Credits: 99designs</p>
+          </td>
+
+          <th>
+            <h2 class="news-heads, topic-headings">ABOUT US</h2>
+          </th>
+        </tr>
+
+        <tr>
+          <td class="news-border">
+            <p style="text-align: left; padding: 50px;">The PASAMA Project is quite literally a project, designed by a 14-year-old for his Computer Science class. This was a vision he had, one that he quite well knew that would serve some practical use if actually driven to completion, as it would serve as a good platform for aggregating news sources for viewers and users alike to get summaries of news quickly and unbiased, from different sources and thus different views.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td rowspan="2" class="news-border" style="padding: 30px;">
+            <img src="../images/creator.jpg">
+						<br><p class="ten">The Man Behind it All</p>
+          </td>
+
+          <td>
+            <h2 class="news-heads" style="font-size: 50px; position: absolute; top: 325px; padding: 0px;">CREDITS</h2>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="news-border">
+            <p style="text-align: left; padding: 50px;">
+              <span> - Site Builder and Developer -</span> Geomad Paolo G. Galang
+              <br><br>
+              <span> - News Sources -</span> Pasama is built as an aggregate for news from different sites. Sources will vary.
+              <br><br>
+              <span>All images belong to their respective owners.</span> PASAMA does not have any ownership over them, and are willing to take them down upon due request.</p>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+
+<!--credits-->
+
+	<footer>
+		<div class="footer-div">
+			<span>
+				<nav class=bottom>
+					<p style="text-align: center;">
+						<a href="https://doh.gov.ph" class="doh-link"><img class="doh-footer">Official DOH Site</a>
+						<a href="https://www.rappler.com" class="rappler-link"><img class="rappler-footer">Official Rappler Site</a>
+						<a href="https://www.inquirer.net" class="inquirer-link"><img class="inquirer-footer">Official Inquirer Site</a>
+						<a href="https://www.99designs.com" class="logo-link"><img class="logo-footer">Logo</a>
+					</p>
+				</nav>
+			</span>
+		</div>
+	</footer>
+		<!--DO NOT TOUCH-->
+		<script src="../htdocs/scripts.js"></script> <!--Created a js file instead-->
+	</body>
+
+</html>

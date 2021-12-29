@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Pasama: HOME</title>
-		<link rel="icon" type="image/ico" href="./css/htdocs/images/logo.ico">
+		<link rel="icon" type="image/ico" href="./images/logo.ico">
 
 		<link rel="stylesheet" href="./css/stylesheet.css">
 
@@ -21,10 +21,139 @@
 			overflow-x: hidden;
 		}
 	</style>
+
+<!--NAVBAR BEYOND THIS POINT-->
+<!--All links will be replaced with '#' if the website for it hasn't been made yet.-->
+
 	<body>
 		<div>
-			<a href="./css/htdocs/images/mmfiles/index.html">Click me to proceed to the site.</a>
+			<span>
+
+				<nav class="navbar">
+					<span class="open-slide">
+						<a href="#" onclick="openSlideMenu()">
+							<svg width="30" height="30"> <!--Sidebar 3 lines SVG-->
+								<path d="M0,7 30,7" stroke="#f4f4f4" stroke-width="5"/>
+								<path d="M0,16 30,16" stroke="#f4f4f4" stroke-width="5"/>
+								<path d="M0,25 30,25" stroke="#f4f4f4" stroke-width="5"/>
+							</svg>
+						</a>
+						<button type="button" onclick="indexselfcredits()" style="background-color: inherit; border: none;"><img id="logo"></button>
+					</span>
+					<span>
+						<!--this is so that everytime it is clicked, it goes back to index.-->
+            <header>
+              <h1 class="home"><a href="index.html" style="font-size: 23px;">PASAMA: Paalala sa Mga Madla<div class="index-title"></div></h1></a>
+            </header>
+
+          </span>
+				</nav>
+				<!--Side menu-->
+				<div id="side-menu" class=side-nav>
+					<p>Menu</p><div class="menu-icon" height="30" width="30"></div>
+					<button type="button" id="exit-button" onclick="closeSlideMenu()">&times;</button>
+          <a href="index.html"><div class="home-icon"></div> HOME</a>
+					<a href="./htdocs/covid.html"><div class="covid-icon"></div> Covid-19</a>
+					<a href="./htdocs/politics.html"><div class="politics-icon"></div> Politics</a>
+					<a href="./htdocs/crime.html"><div class="crime-icon"></div> Crime</a>
+					<a href="./htdocs/general.html"><div class="general-icon"></div> General</a>
+					<a href="./htdocs/about.html"><div class="about-icon"></div> About</a>
+				</div>
+			</span>
 		</div>
+
+<!--BREAKING NEWS, BANNER, MGA KATEGORYA-->
+		<div>
+			<span>
+				<nav class="cat-borders" style="padding: 1px; position: absolute; width: 1343px; margin-top: 65px;"> <!--Breaking news-->
+						<!--Finally changed from deprecated marquee to translate css-->
+						<p class="breaking" id="scroll-text">OMICRON: Overseas threat of a new variant!</p>
+				</nav>
+			</span>
+		</div>
+
+		<div>
+			<span> <!--Event banner (Halalan)-->
+				<img src="./images/AirportPanorama.jpg" alt="Current Event Image Banner" style="width: 1350px; height: 200px; margin-top: 120px;">
+				<p style="font-size:10px;">Wikimedia Commons, 2007</p>
+			</span>
+		</div>
+
+		<div class="kategorya">
+			<h2>MGA KATEGORYA</h2>
+		</div>
+
+<!--TABLE HELL; CATEGORY IMAGES AND HYPERLINKS-->
+
+		<div style="position: absolute; margin-top: 70px">
+			<span style="text-align: center;">
+
+<!--COVID-->
+
+				<table class="cat-borders" style="position: absolute; margin-left: 50px;">
+					<tr>
+						<td><a href="./htdocs/covid.html"><img class="covid-topic"></a></td>
+					</tr>
+					<tr>
+						<td class="categories"><a href="./htdocs/covid.html">COVID-19</a><br><p style="font-size: 10px;">Credits: CDC</p></td>
+					</tr>
+				</table>
+
+<!--POLITICS-->
+
+				<table class="cat-borders" style="position: absolute; margin-left: 400px;">
+					<tr>
+						<td><a href="./htdocs/politics.html"><img class="politics-topic"></a></td>
+					</tr>
+					<tr>
+						<td class="categories"><a href="./htdocs/politics.html">Politics</a><br><p style="font-size: 10px;">Credits: iStock</p></td>
+					</tr>
+				</table>
+
+<!--CRIME-->
+
+				<table class="center cat-borders" style="position: absolute; margin-left: 800px;">
+					<tr>
+						<td><a href="./htdocs/crime.html"><img class="crime-topic"></a></td>
+					</tr>
+					<tr>
+						<td class="categories"><a href="./htdocs/crime.html">Crime</a><br><p style="font-size: 10px;">Credits: Wandtv</p></td>
+					</tr>
+				</table>
+
+<!--GENERAL NEWS-->
+
+				<table class="center cat-borders" style="position: absolute; margin-left: 1150px;">
+					<tr>
+						<td><a href="./htdocs/general.html"><img class="general-topic"></a></td>
+					</tr>
+					<tr>
+						<td class="categories"><a href="./htdocs/general.html">General</a><br><p style="font-size: 10px;">Credits: Wiki</p></td>
+					</tr>
+				</table>
+
+				<br><br><br>
+			</span>
+		</div>
+
+<!--credits-->
+	<footer>
+		<div class="footer-div">
+			<span>
+	     	<nav class=bottom>
+					<p style="text-align: center;">
+						<a href="https://doh.gov.ph" class="doh-link"><img class="doh-footer">Official DOH Site</a>
+						<a href="https://www.rappler.com" class="rappler-link"><img class="rappler-footer">Official Rappler Site</a>
+						<a href="https://www.inquirer.net" class="inquirer-link"><img class="inquirer-footer">Official Inquirer Site</a>
+						<a href="https://www.99designs.com" class="logo-link"><img class="logo-footer">Logo</a>
+					</p>
+		  	</nav>
+			</span>
+		</div>
+	</footer>
+
+<!--DO NOT TOUCH SCRIPTS/FUNCTIONS-->
+		<script src="./htdocs/scripts.js"></script>
 	</body>
 
 </html>

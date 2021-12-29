@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pasama: CRIME</title>
+		<link rel="icon" type="image/ico" href="../images/logo.ico">
+
+		<link rel="stylesheet" href="../css/stylesheet.css">
+		<link rel="stylesheet" href="../css/crime-images.css">
+
+		<meta charset="UTF-8">
+		<meta name="author" content="Paolo Galang">
+		<meta name="section" content="9-Argon">
+		<meta name="description" content="PASAMA CRIME Section.">
+		<meta name="keywords" content="PASAMA, news, newsbits, philippines, crime">
+
+	</head>
+
+	<style>
+		body {
+			overflow: scroll;
+			height: 1450px;
+			overflow-x: hidden;
+		}
+
+		th p{
+			text-align: left;
+		}
+
+	</style>
+
+<!--NAVBAR BEYOND THIS POINT-->
+
+	<body>
+		<div>
+			<span>
+
+				<nav class="navbar">
+					<span class="open-slide">
+						<a href="#" onclick="openSlideMenu()">
+							<svg width="30" height="30"> <!--Sidebar 3 lines thingie-->
+								<path d="M0,7 30,7" stroke="#f4f4f4" stroke-width="5"/>
+								<path d="M0,16 30,16" stroke="#f4f4f4" stroke-width="5"/>
+								<path d="M0,25 30,25" stroke="#f4f4f4" stroke-width="5"/>
+							</svg>
+						</a>
+						<button type="button" onclick="selfcredits()" style="background-color: inherit; border: none;"><img id="logo"></button>
+					</span>
+					<span>
+						<header>
+							<h1 class="home"><a href="../index.html" style="font-size: 23px;">PASAMA: Paalala sa Mga Madla<div class="crime-title"></div></h1></a>
+						</header>
+					</span>
+				</nav>
+				<!--Side menu-->
+				<div id="side-menu" class=side-nav>
+					<p>Menu</p><div class="menu-icon" height="30" width="30"></div>
+					<button type="button" id="exit-button" onclick="closeSlideMenu()">&times;</button>
+          <a href="../index.html"><div class="home-icon"></div> HOME</a>
+					<a href="covid.html"><div class="covid-icon"></div> Covid-19</a>
+					<a href="politics.html"><div class="politics-icon"></div> Politics</a>
+					<a href="crime.html"><div class="crime-icon"></div> Crime</a>
+					<a href="general.html"><div class="general-icon"></div> General</a>
+					<a href="about.html"><div class="about-icon"></div> About</a>
+				</div>
+			</span>
+		</div>
+
+<!--BREAKING NEWS-->
+		<div>
+			<span>
+        <nav class="cat-borders" style="padding: 1px; position: absolute; width: 1343px; margin-top: 65px;"> <!--Breaking news-->
+						<!--Finally changed from deprecated marquee to translate css-->
+						<p class="breaking" id="scroll-text">OMICRON: Overseas threat of a new variant!</p>
+				</nav>
+			</span>
+		</div>
+
+		<div id="selfcredit" style="display: none;"> <!--Easter egg :D-->
+			<p id="scroll-text" class="easter-egg">
+				This was made by Paolo Galang of 9 - Argon, PSHS CBZRC B2025. Nothing to see here!
+			</p>
+		</div>
+
+<!--TABLE HELL PART 2: NEWS VERSION-->
+
+		<div class="news-div">
+			<table class="news-table">
+
+<!--HEADING-->
+        <tr>
+          <td rowspan="2" class="news-border" style="padding: 30px;">
+            <img class="crime-heading">
+						<br><p style="font-size: 10px;">Credits: WandTv</p>
+          </td>
+
+          <th>
+            <h2 class="news-heads, topic-headings">CRIME</h2>
+          </th>
+        </tr>
+
+        <tr>
+          <td class="news-border">
+            <p style="text-align: left; padding: 50px;"><br><br>CRIME, a constant happening in our world. One cannot deny the evil that exists in this world that we live in. As sad as the reality is, it happens every day.This section is designed to report some of the happenings in our country all related to crime in order to make you, the viewer, be aware of recent events. This section will be primarily focused on national crimes, but international crimes will also be covered.</p>
+          </td>
+        </tr>
+
+<!--NEWS1-->
+<!--do note aach news header is a hyperlink. This is what people click for more specific sources-->
+
+			<article>
+				<tr>
+					<td rowspan="2" class="news-border news-extras">
+						<img class="jesus-malabanan">
+						<br><p class="ten">Credits: Al Jazeera</p>
+					</td>
+
+					<th>
+						<h2 class="news-heads"><a href="https://www.aljazeera.com/news/2021/12/9/filipino-journalist-who-investigated-duterte-drug-war-killed">Journalist Known for Investigating Drug War Killed</a></h2><p>December 9, 2021</p>
+					</th>
+				</tr>
+
+				<tr>
+					<td class="news-border">
+						<p style="text-align: left;">Journalist Jesus Malabanan, known for helping Reuters, an international news agency, in the investigation of Duterte's War against Drugs, has been shot dead. Police stated that he was killed inside his own home while watching television. Further reports state that it was most likely due to a disagreement regarding land (Al Jazeera, 2021).</p>
+					</td>
+				</tr>
+			</article>
+
+<!--NEWS2-->
+			<article>
+				<tr>
+					<td rowspan="2" class="news-border news-extras">
+						<img class="makati">
+						<br><p class="ten">Credits: Wikipedia Map</p>
+					</td>
+
+					<th>
+						<h2 class="news-heads"><a href="https://newsinfo.inquirer.net/1528925/cops-seize-p2-7m-worth-of-shabu-in-makati-city-buy-bust">Cops Seize P2.7Million Worth of Shabu in Makati City Buy Bust</a></h2><p>December 18, 2021</p>
+					</th>
+				</tr>
+
+				<tr>
+					<td class="news-border">
+						<p style="text-align: left;">In a recent buy-bust operation created by Makati operatives, Baby Madonna Vivero and Maria Sandra Esponilla were arrested at around 10:30PM on a Thursday. Money and drugs were confiscated by the polics, with 400grams of suspected shabu removed (Inquirer.net, 2021).</p>
+					</td>
+				</tr>
+			</article>
+
+<!--NEWS3-->
+			<article>
+				<tr>
+					<td rowspan="2" class="news-border news-extras">
+						<img class="motorcycle">
+						 <br><p class="ten">Credits: Yamaha</p>
+					</td>
+
+					<th>
+						<h2 class="news-heads"><a href="https://mb.com.ph/2021/12/15/motorcycle-riding-robbers-shoot-guard-dead-in-caloocan/">Motorcycle Riding Robbers Shoot Guard Dead in Caloocan</a></h2><p>December 15, 2021</p>
+					</th>
+				</tr>
+
+				<tr>
+					<td class="news-border">
+						<p style="text-align: left;">In recent events, a 31-year-old security guard was shot dead by two motorcycle-riding men who robbed a delivery company on December 13 in Caloocan. The suspects left a box of coconut husks (Manila Bulletin, 2021).</p>
+					</td>
+				</tr>
+			</article>
+
+<!--NEWS 4-->
+			<article>
+				<tr>
+					<td rowspan="2" class="news-border news-extras">
+						<img class="siblings">
+		 				<br><p class="ten">Credits: Rappler</p>
+					</td>
+
+					<th>
+						<h2 class="news-heads"><a href="https://www.rappler.com/nation/police-await-crime-laboratory-results-to-file-case-teenage-siblings-killings-cotabato/">Police Wait on Lab Results Regarding the Murder of Siblings</a></h2><p>December 15, 2021</p>
+					</th>
+				</tr>
+
+				<tr>
+					<td class="news-border">
+						<p style="text-align: left;">Teenage siblings were recently murdered in Cotabato on a Wednesday, on December 15. The police launched a probe and are now waiting for lab results before launching a complaint. Things such as hair strands and weapons were sent to the lab to be studied (Rappler, 2021).</p>
+					</td>
+				</tr>
+			</article>
+
+<!--credits-->
+
+	<footer>
+		<div class="footer-div">
+			<span>
+				<nav class=bottom>
+					<p style="text-align: center;">
+						<a href="https://doh.gov.ph" class="doh-link"><img class="doh-footer">Official DOH Site</a>
+						<a href="https://www.rappler.com" class="rappler-link"><img class="rappler-footer">Official Rappler Site</a>
+						<a href="https://www.inquirer.net" class="inquirer-link"><img class="inquirer-footer">Official Inquirer Site</a>
+						<a href="https://www.99designs.com" class="logo-link"><img class="logo-footer">Logo</a>
+					</p>
+				</nav>
+			</span>
+		</div>
+	</footer>
+		<!--DO NOT TOUCH-->
+		<script src="../htdocs/scripts.js"></script> <!--Created a js file instead-->
+	</body>
+
+</html>

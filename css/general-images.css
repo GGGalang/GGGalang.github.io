@@ -1,29 +1,29 @@
 .odette-one{
-  background: url('./htdocs/images/general.png') no-repeat -1px -1px;
+  background: url('../images/general.png') no-repeat -1px -1px;
 	width: 125px;
 	height: 94px;
 }
 
 .power-lines{
-  background: url('./htdocs/images/general.png') no-repeat -153px -103px;
+  background: url('../images/general.png') no-repeat -153px -103px;
 	width: 150px;
 	height: 94px;
 }
 
 .bea-face{
-  background: url('./htdocs/images/general.png') no-repeat -1px -97px;
+  background: url('../images/general.png') no-repeat -1px -97px;
 	width: 150px;
 	height: 90px;
 }
 
 .coa-logo{
-  background: url('./htdocs/images/general.png') no-repeat -153px -1px;
+  background: url('../images/general.png') no-repeat -153px -1px;
 	width: 100px;
 	height: 100px;
 }
 
 .three-advisors{
-  background: url('./htdocs/images/general.png') no-repeat -1px -199px;
+  background: url('../images/general.png') no-repeat -1px -199px;
 	width: 150px;
 	height: 46px;
 }

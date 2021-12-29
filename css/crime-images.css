@@ -1,23 +1,23 @@
 .jesus-malabanan{
-  background: url('./htdocs/images/crime.png') no-repeat -205px -1px;
+  background: url('../images/crime.png') no-repeat -205px -1px;
 	width: 100px;
 	height: 100px;
 }
 
 .makati{
-  background: url('./htdocs/images/crime.png') no-repeat -1px -1px;
+  background: url('../images/crime.png') no-repeat -1px -1px;
 	width: 100px;
 	height: 100px;
 }
 
 .motorcycle{
-  background: url('./htdocs/images/crime.png') no-repeat -103px -1px;
+  background: url('../images/crime.png') no-repeat -103px -1px;
 	width: 100px;
 	height: 100px;
 }
 
 .siblings{
-  background: url('./htdocs/images/crime.png') no-repeat -1px -103px;
+  background: url('../images/crime.png') no-repeat -1px -103px;
 	width: 150px;
 	height: 84px;
 }

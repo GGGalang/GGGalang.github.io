@@ -1,29 +1,29 @@
 .doh-logo{
-  background: url('./htdocs/images/covid.png') no-repeat -104px -104px;
+  background: url('../images/covid.png') no-repeat -104px -104px;
 	width: 100px;
 	height: 100px;
 }
 
 .children-vacc{
-  background: url('./htdocs/images/covid.png') no-repeat -1px -103px;
+  background: url('../images/covid.png') no-repeat -1px -103px;
 	width: 100px;
 	height: 100px;
 }
 
 .bloomberg-logo{
-  background: url('./htdocs/images/covid.png') no-repeat -103px -1px;
+  background: url('../images/covid.png') no-repeat -103px -1px;
 	width: 100px;
 	height: 100px;
 }
 
 .vaccine{
-  background: url('./htdocs/images/covid.png') no-repeat -1px -1px;
+  background: url('../images/covid.png') no-repeat -1px -1px;
   width: 100px;
 	height: 100px;
 }
 
 .kid-vaccine{
-  background: url('./htdocs/images/covid.png') no-repeat -309px -1px;
+  background: url('../images/covid.png') no-repeat -309px -1px;
   width: 100px;
 	height: 100px;
 }
