@@ -1,9 +1,6 @@
 # GGGalang.github.io
-The repository host for the PASAMA Project. Contains small edits and configurations from the original for hosting.
+The repository host for the PASAMA Project. Merged for all-in-one hosting.
 
-<<<<<<< HEAD
-If you want the original PASAMA Project, click [this link right here](https://github.com/GGGalang/2QProjArgonGalang.git).
-=======
 This project is quite literally the project of a 14-year-old. Please expect imperfections and bugs if you even happen to come across this repo, or if you're my teacher then hi sir!
 
 The PASAMA Project: Paalala SA Mga Madla<br>
