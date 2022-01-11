@@ -191,6 +191,21 @@ a {
   right: 125px;
 }
 
+#toTop{
+	position: fixed;
+    height: 75px;
+    width: 75px;
+    bottom: 60px;
+    right: 10px;
+    font-size: 50px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb( 59, 89, 152);
+    box-shadow: 0 0 10px rgba( 0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
 .covid-topic{
   background: url('../images/topics.png') no-repeat -104px -229px;
 	width: 100px;

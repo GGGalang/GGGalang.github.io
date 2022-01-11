@@ -9,11 +9,18 @@ summary in the form of a paragraph for each news bit. Dedicated to serving true,
 
 Bugs be expected, easter eggs be found!
 
+#### WIFI RECOMMENDED
+I used an online library for the scroll-to-top button, due to sprites being annoying when trying to resize them, and
+a sole image for a simple arrow-up icon being impractical. Thus, I just used an online library. If you aren't connected to
+wifi, the scroll button will still work but the arrow itself won't be there anymore.
+
 ## Testing Site:
-1. Github Pages (**New Domain!**): [Here](https://www.pasama.ml/)
+1. Github Pages: [Here](https://www.pasama.ml/)
 
 ## READ VERY IMPORTANT (TEST SITE)
-As of writing, the site is still under testing and is fairly new. Thus, chrome (and other browsers) deemed it fit to smack it with a "red alert", which tells all users that the site is "unsafe". **It is not**, and can be proven by the code that the site doesn't even gather your data at all. This actually already happened before in an old release, when the site was newly launched. This was resolved, until it happened again this time due to me changing the domain from github's default provided domain to a custom made one. I'm hoping it'll eventually be gone but for now, follow these steps when you experience a red alert:
+As of writing, what I call as "red-alerts" that chrome pushes onto sites that are considered "dangerous" don't appear anymore.
+In my last major release (in the last repo), my site was plagued with it at first. While it doesn't appear anymore, if you do happen to
+stumble upon a red-alert on my site (it's essentially a pop-up warning you the site is "dangerous"), follow these steps:
 
 #### RED ALERT STEPS
 1. Click the "Details" button

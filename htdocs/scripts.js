@@ -50,5 +50,17 @@ function selfcredits(){ //Easter egg script for normal content pages
   }
 }
 
+//button to top function
+
+const btnToTop = document.getElementById("toTop");
+
+btnToTop.addEventListener("click", function() {
+    window.scrollTo({ //someone said jquery is better (and it is shorter too), but let's stick to js for now
+        left: 0,
+        top: 0,
+        behavior: "smooth"
+    });
+});
+
 //NOTE: So when I created this file, I'm not sure if it's considered an htdoc or mmfile??? So I placed it in htdocs with other
 //files lol, it could even be css but again, I just placed it here (htdocs folder).
