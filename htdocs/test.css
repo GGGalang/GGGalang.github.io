@@ -1,0 +1,35 @@
+#box{
+    height: 90px;
+    width: 400px;
+}
+
+.search {
+    position: absolute;
+    right: 80px;
+    top: 20px;
+    height: 20px;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.searchbtn{
+    position: absolute;
+    right: 20px;
+    top: 23px;
+}
+
+#test{
+    position: absolute;
+    right: 450px;
+    top: 450px;
+    height: 90px;
+    width: 900px;
+}
+
+#test2{
+    position: absolute;
+    right: 450px;
+    top: 600px;
+    height: 90px;
+    width: 900px;
+}

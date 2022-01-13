@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pasama: Search</title>
+		<script src="https://kit.fontawesome.com/ecd4e23ea1.js" crossorigin="anonymous"></script>
+        <script async src="https://cse.google.com/cse.js?cx=ec608ef21e42bedd5"></script>
+		<link rel="icon" type="image/ico" href="../images/logo.ico">
+
+		<link rel="stylesheet" href="../css/stylesheet.css">
+        <link rel="stylesheet" href="./test.css"
+
+		<meta charset="UTF-8">
+		<meta name="author" content="Paolo Galang">
+		<meta name="section" content="9-Argon">
+		<meta name="description" content="PASAMA Search Area.">
+		<meta name="keywords" content="PASAMA, News, Search">
+
+	</head>
+
+	<style>
+		body {
+			overflow: scroll;
+			height: 950px;
+			overflow-x: hidden;
+		}
+
+    th p{
+      text-align: left;
+    }
+
+    p span{
+      font-weight: bold;
+    }
+	</style>
+
+<!--NAVBAR BEYOND THIS POINT-->
+
+	<body>
+		<div>
+			<span>
+
+				<nav class="navbar">
+					<span class="open-slide">
+						<a href="#" onclick="openSlideMenu()">
+							<svg width="30" height="30"> <!--Sidebar 3 lines thingie-->
+								<path d="M0,7 30,7" stroke="#f4f4f4" stroke-width="5"/>
+								<path d="M0,16 30,16" stroke="#f4f4f4" stroke-width="5"/>
+								<path d="M0,25 30,25" stroke="#f4f4f4" stroke-width="5"/>
+							</svg>
+						</a>
+						<button type="button" onclick="selfcredits()" style="background-color: inherit; border: none;"><img id="logo"></button>
+					</span>
+					<span>
+						<header>
+							<h1 class="home"><a href="../index.html" style="font-size: 23px;">PASAMA: Paalala sa Mga Madla<div class="about-title"></div></h1></a>
+						</header>
+					</span>
+                    <span>
+                        <form name="google search" action="search.html">
+                            <input name="q" size="100" type="text" class="search" />
+                            <input value="Search" type="submit" class="searchbtn" autofocus />
+                        </form>
+                    </span>
+				</nav>
+				<!--Side menu-->
+				<div id="side-menu" class=side-nav>
+					<p>Menu</p><div class="menu-icon" height="30" width="30"></div>
+					<button type="button" id="exit-button" onclick="closeSlideMenu()">&times;</button>
+                    <a href="../index.html"><div class="home-icon"></div> HOME</a>
+					<a href="covid.html"><div class="covid-icon"></div> Covid-19</a>
+					<a href="politics.html"><div class="politics-icon"></div> Politics</a>
+					<a href="crime.html"><div class="crime-icon"></div> Crime</a>
+					<a href="general.html"><div class="general-icon"></div> General</a>
+					<a href="about.html"><div class="about-icon"></div> About</a>
+				</div>
+			</span>
+		</div>
+
+<!--BREAKING NEWS-->
+		<div>
+			<span>
+				<nav class="cat-borders" style="padding: 1px; position: absolute; width: 1343px; margin-top: 65px;"> <!--Breaking news-->
+						<!--Finally changed from deprecated marquee to translate css-->
+						<p class="breaking" id="scroll-text">OMICRON: Overseas threat of a new variant!</p>
+				</nav>
+			</span>
+		</div>
+
+        <div id="selfcredit" style="display: none;"> <!--Easter egg :D-->
+	        <p id="scroll-text" class="easter-egg">
+				This was made by Paolo Galang of 9 - Argon, PSHS CBZRC B2025. Nothing to see here!
+			</p>
+		</div>
+
+<!--Main Search engine (google) iframe body-->
+
+        <script async src="https://cse.google.com/cse.js?cx=ec608ef21e42bedd5"></script>
+        <div style="position: absolute; top: 125px; width: 1350px;"><div class="gcse-searchresults-only"></div></div>
+
+
+<!--credits-->
+
+	<footer>
+		<div class="footer-div">
+			<span>
+				<nav class=bottom>
+					<p style="text-align: center;">
+						<a href="https://doh.gov.ph" class="doh-link"><img class="doh-footer">Official DOH Site</a>
+						<a href="https://www.rappler.com" class="rappler-link"><img class="rappler-footer">Official Rappler Site</a>
+						<a href="https://www.inquirer.net" class="inquirer-link"><img class="inquirer-footer">Official Inquirer Site</a>
+						<a href="https://www.99designs.com" class="logo-link"><img class="logo-footer">Logo</a>
+					</p>
+				</nav>
+			</span>
+		</div>
+	</footer>
+
+<!--Scroll to top button-->
+		<button id="toTop"><i class="fas fa-arrow-up"></i></button>
+
+		<!--DO NOT TOUCH-->
+		<script src="../htdocs/scripts.js"></script> <!--Created a js file instead-->
+	</body>
+
+</html>
