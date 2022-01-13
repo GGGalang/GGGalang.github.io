@@ -58,7 +58,7 @@ btnToTop.addEventListener("click", function() {
     window.scrollTo({ //someone said jquery is better (and it is shorter too), but let's stick to js for now
         left: 0,
         top: 0,
-        behavior: "smooth"
+        behavior: "smooth" //this isn't transform, but it sure does work that way.
     });
 });
 
