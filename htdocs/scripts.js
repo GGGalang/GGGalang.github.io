@@ -62,20 +62,27 @@ function searchcredits(){
   clicks += 1;
   var x = document.getElementById("results-area");
   var y = document.getElementById('jump');
+  var z = document.getElementById('searchcreds');
 
   if (clicks == 21){
     if (x.style.display === "block") {
       x.style.display = "none";
       y.style.display = "block";
+      z.style.display = "block";
       clicks = 0;
       if (firstTime == 0){
         alert("Wow, you unlocked an easter egg! Click the logo again 21 more times to remove it, and 21 again to restore.");
         alert("If it hasn't loaded yet, give it a few more seconds, CSE takes up an awful amount of requests :D");
         firstTime = 1;
       }
+      window.scrollTo({ //someone said jquery is better (and it is shorter too), but let's stick to js for now
+          left: 0,
+          top: 200,
+      });
     } else {
       x.style.display = "block";
       y.style.display = "none";
+      z.style.display = "none";
       clicks = 0;
     }
   }

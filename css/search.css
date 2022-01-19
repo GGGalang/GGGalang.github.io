@@ -5,19 +5,30 @@
     position: absolute;
     top: 200px;
     left: 500px;
-    height: 150px;
-    width: 70px;
+    height: 169px;
+    width: 85px;
     background: url("../images/jump.png");
-    animation: jumping 1s steps(7) infinite;
+    animation: jumping 0.5s infinite;
+    animation-timing-function: step-start;
 }
 
 @keyframes jumping {
-    100% { background-position: -560px 0px;}
+    100% { background-position: -404px 0px; width: 96px;}
+    80% { background-position: -290px 0px; width: 108px;}
+    60% { background-position: -187px 0px; width: 97px;}
+    40% { background-position: -91px 0px; width: 90px;}
+    20% { background-position: -0px 0px; width: 85px;}
 }
 
 #box{
     height: 90px;
     width: 400px;
+}
+
+.creds{
+    position: absolute;
+    top: 210px;
+    right: 0px;
 }
 
 .search {
