@@ -39,7 +39,7 @@
 								<path d="M0,25 30,25" stroke="#f4f4f4" stroke-width="5"/>
 							</svg>
 						</a>
-						<button type="button" onclick="indexselfcredits()" style="background-color: inherit; border: none;"><img id="logo"></button>
+						<button type="button" onclick="indexselfcredits()" class="none"><img id="logo"></button>
 					</span>
 					<span>
 						<!--this is so that everytime it is clicked, it goes back to index.-->
@@ -71,16 +71,15 @@
 <!--BREAKING NEWS, BANNER, MGA KATEGORYA-->
 		<div>
 			<span>
-				<nav class="cat-borders" style="padding: 1px; position: absolute; width: 1343px; margin-top: 65px;"> <!--Breaking news-->
-						<!--Finally changed from deprecated marquee to translate css-->
-						<p class="breaking" id="scroll-text">OMICRON: Overseas threat of a new variant!</p>
+				<nav class="breaking-container"> <!--Breaking news-->
+					<p class="breaking" id="scroll-text">OMICRON: Overseas threat of a new variant!</p>
 				</nav>
 			</span>
 		</div>
 
 		<div>
 			<span> <!--Event banner (Halalan)-->
-				<img src="./images/AirportPanorama.jpg" alt="Current Event Image Banner" style="width: 1350px; height: 200px; margin-top: 120px;">
+				<img src="./images/AirportPanorama.jpg" alt="Current Event Image Banner" class="banner-image">
 				<p style="font-size:10px;">Wikimedia Commons, 2007</p>
 			</span>
 		</div>
@@ -101,7 +100,7 @@
 						<td><a href="./htdocs/covid.html"><img class="covid-topic"></a></td>
 					</tr>
 					<tr>
-						<td class="categories"><a href="./htdocs/covid.html">COVID-19</a><br><p style="font-size: 10px;">Credits: CDC</p></td>
+						<td class="categories"><a href="./htdocs/covid.html">COVID-19</a><br><p class="ten">Credits: CDC</p></td>
 					</tr>
 				</table>
 
@@ -112,7 +111,7 @@
 						<td><a href="./htdocs/politics.html"><img class="politics-topic"></a></td>
 					</tr>
 					<tr>
-						<td class="categories"><a href="./htdocs/politics.html">Politics</a><br><p style="font-size: 10px;">Credits: iStock</p></td>
+						<td class="categories"><a href="./htdocs/politics.html">Politics</a><br><p class="ten">Credits: iStock</p></td>
 					</tr>
 				</table>
 
@@ -123,7 +122,7 @@
 						<td><a href="./htdocs/crime.html"><img class="crime-topic"></a></td>
 					</tr>
 					<tr>
-						<td class="categories"><a href="./htdocs/crime.html">Crime</a><br><p style="font-size: 10px;">Credits: Wandtv</p></td>
+						<td class="categories"><a href="./htdocs/crime.html">Crime</a><br><p class="ten">Credits: Wandtv</p></td>
 					</tr>
 				</table>
 
@@ -134,7 +133,7 @@
 						<td><a href="./htdocs/general.html"><img class="general-topic"></a></td>
 					</tr>
 					<tr>
-						<td class="categories"><a href="./htdocs/general.html">General</a><br><p style="font-size: 10px;">Credits: Wiki</p></td>
+						<td class="categories"><a href="./htdocs/general.html">General</a><br><p class="ten">Credits: Wiki</p></td>
 					</tr>
 				</table>
 
@@ -143,20 +142,18 @@
 		</div>
 
 <!--credits-->
-	<footer>
-		<div class="footer-div">
-			<span>
-	     	<nav class=bottom>
-					<p style="text-align: center;">
+		<footer>
+			<div class="footer-div">
+	     		<nav class=bottom>
+					<p class="centered">
 						<a href="https://doh.gov.ph" class="doh-link"><img class="doh-footer">Official DOH Site</a>
 						<a href="https://www.rappler.com" class="rappler-link"><img class="rappler-footer">Official Rappler Site</a>
 						<a href="https://www.inquirer.net" class="inquirer-link"><img class="inquirer-footer">Official Inquirer Site</a>
 						<a href="https://www.99designs.com" class="logo-link"><img class="logo-footer">Logo</a>
 					</p>
-		  	</nav>
-			</span>
-		</div>
-	</footer>
+		  		</nav>
+			</div>
+		</footer>
 
 <!--Scroll to top button-->
 		<button id="toTop"><i class="fas fa-arrow-up"></i></button>
@@ -164,5 +161,4 @@
 <!--DO NOT TOUCH SCRIPTS/FUNCTIONS-->
 		<script src="./htdocs/scripts.js"></script>
 	</body>
-
 </html>

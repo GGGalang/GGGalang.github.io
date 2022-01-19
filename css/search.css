@@ -1,6 +1,20 @@
 /* So some of these are NEVER declared, but they're here for test purposes
 (as evidenced by the names literally being test haha)*/
 
+#jump{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    height: 150px;
+    width: 70px;
+    background: url("../images/jump.png");
+    animation: jumping 1s steps(7) infinite;
+}
+
+@keyframes jumping {
+    100% { background-position: -560px 0px;}
+}
+
 #box{
     height: 90px;
     width: 400px;

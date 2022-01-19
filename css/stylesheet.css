@@ -55,6 +55,11 @@ a {
 	height: 30px;
 }
 
+.none{
+    background-color: inherit;
+    border: none;
+}
+
 .menu-icon{
   background: url('../images/icons.png') no-repeat -35px -1px;
   width: 32px;
@@ -278,6 +283,16 @@ a {
   height: 30px;
 }
 
+.breaking-container{
+    padding: 1px;
+    border: 2px solid black;
+    position: absolute;
+    width: 1343px;
+    margin-top: 65px;
+    text-align: center;
+    font-weight: bold;
+}
+
 .breaking{
   text-align: center;
   font-weight: bold;
@@ -290,6 +305,12 @@ a {
   border: 2px solid black;
   position: absolute;
   width: 1345px;
+}
+
+.banner-image{
+    width: 1350px;
+    height: 200px;
+    margin-top: 120px;
 }
 
 .kategorya {
@@ -516,4 +537,8 @@ a {
   position: absolute;
   top: 150px;
   right: 40px;
+}
+
+.centered{
+    text-align: center;
 }

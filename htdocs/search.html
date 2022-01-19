@@ -40,7 +40,7 @@
 								<path d="M0,25 30,25" stroke="#f4f4f4" stroke-width="5"/>
 							</svg>
 						</a>
-						<button type="button" onclick="selfcredits()" style="background-color: inherit; border: none;"><img id="logo"></button>
+						<button type="button" onclick="searchcredits()" style="background-color: inherit; border: none;"><img id="logo"></button>
 					</span>
 					<span>
 						<header>
@@ -71,30 +71,25 @@
 <!--BREAKING NEWS-->
 		<div>
 			<span>
-				<nav class="cat-borders" style="padding: 1px; position: absolute; width: 1343px; margin-top: 65px;"> <!--Breaking news-->
-						<!--Finally changed from deprecated marquee to translate css-->
-						<p class="breaking" id="scroll-text">OMICRON: Overseas threat of a new variant!</p>
+				<nav class="breaking-container"> <!--Breaking news-->
+					<p class="breaking" id="scroll-text">OMICRON: Overseas threat of a new variant!</p>
 				</nav>
 			</span>
 		</div>
 
-        <div id="selfcredit" style="display: none;"> <!--Easter egg :D-->
-	        <p id="scroll-text" class="easter-egg">
-				This was made by Paolo Galang of 9 - Argon, PSHS CBZRC B2025. Nothing to see here!
-			</p>
-		</div>
+        <div id="jump" style="display: none;"><!--Easter egg :D--></div>
+
 
 <!--Main Search engine (google) iframe body-->
-
         <script async src="https://cse.google.com/cse.js?cx=565fe8bc9c50b5a43"></script>
-        <div class="results"><div class="gcse-searchresults-only"></div></div>
+        <div class="results"><div class="gcse-searchresults-only" id="results-area" style="display: block;"></div></div>
 		<!--SO whenever someone searches something from ANY webpage (even this one), it shows results in this page, in this area.-->
+
 
 <!--credits-->
 
-	<footer>
-		<div class="footer-div">
-			<span>
+		<footer>
+			<div class="footer-div">
 				<nav class=bottom>
 					<p style="text-align: center;">
 						<a href="https://doh.gov.ph" class="doh-link"><img class="doh-footer">Official DOH Site</a>
@@ -103,9 +98,8 @@
 						<a href="https://www.99designs.com" class="logo-link"><img class="logo-footer">Logo</a>
 					</p>
 				</nav>
-			</span>
-		</div>
-	</footer>
+			</div>
+		</footer>
 
 <!--Scroll to top button-->
 		<button id="toTop"><i class="fas fa-arrow-up"></i></button>

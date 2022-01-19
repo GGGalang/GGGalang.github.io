@@ -2,6 +2,8 @@ var clicks = 0;
 var x;
 var firstTime = 0;
 var index_clicks = 0;
+var warning = 0;
+
 
 //Slide/side menu functions
 
@@ -10,19 +12,20 @@ function openSlideMenu(){
   document.getElementById('main').style.marginLeft = '250px';
 }
 
+
 function closeSlideMenu(){
   document.getElementById('side-menu').style.width = '0';
   document.getElementById('main').style.marginLeft = '0';
 }
 
-//misc
 
+//misc
 function unfinished(){ //Unfinished site alert script (UNUSED, All sites are finished)
   alert("Sorry, but this site is unfinished!")
 }
 
-//EASTER EGGS :DDDD
 
+//EASTER EGGS :DDDD
 function indexselfcredits(){ //index/home site easter egg works differently from content pages.
   index_clicks += 1;
   if (index_clicks == 20) {
@@ -31,7 +34,9 @@ function indexselfcredits(){ //index/home site easter egg works differently from
   }
 }
 
-function selfcredits(){ //Easter egg script for normal content pages
+
+//Easter egg script for normal content pages
+function selfcredits(){
   clicks += 1;
   var x = document.getElementById("selfcredit");
 
@@ -40,7 +45,7 @@ function selfcredits(){ //Easter egg script for normal content pages
       x.style.display = "block";
       clicks = 0;
       if (firstTime == 0){
-        alert("Wow, you unlocked an easter egg! Click the logo again 19 more times to remove it, and 19 again to restore.")
+        alert("Wow, you unlocked an easter egg! Click the logo again 19 more times to remove it, and 19 again to restore.");
         firstTime = 1;
       }
     } else {
@@ -50,10 +55,53 @@ function selfcredits(){ //Easter egg script for normal content pages
   }
 }
 
+
+
+//easter egg for search page
+function searchcredits(){
+  clicks += 1;
+  var x = document.getElementById("results-area");
+  var y = document.getElementById('jump');
+
+  if (clicks == 21){
+    if (x.style.display === "block") {
+      x.style.display = "none";
+      y.style.display = "block";
+      clicks = 0;
+      if (firstTime == 0){
+        alert("Wow, you unlocked an easter egg! Click the logo again 21 more times to remove it, and 21 again to restore.");
+        alert("If it hasn't loaded yet, give it a few more seconds, CSE takes up an awful amount of requests :D");
+        firstTime = 1;
+      }
+    } else {
+      x.style.display = "block";
+      y.style.display = "none";
+      clicks = 0;
+    }
+  }
+}
+
+//Warning for results function
+function warningFunc(){
+    if (warning == 0){
+        alert("WARNING: This search engine is powered by Google CSE. Results may be relevant BUT outdated.")
+        warning += 1;
+        window.scrollTo({ //someone said jquery is better (and it is shorter too), but let's stick to js for now
+            left: 0,
+            top: 0,
+        });
+    }
+}
+
+if (document.title == "Pasama: Search"){ //This is the warning for search results
+    var warning = 0;
+    window.onload = warningFunc();
+}
+
+
+
 //button to top function
-
 const btnToTop = document.getElementById("toTop");
-
 btnToTop.addEventListener("click", function() {
     window.scrollTo({ //someone said jquery is better (and it is shorter too), but let's stick to js for now
         left: 0,
