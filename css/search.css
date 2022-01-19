@@ -1,3 +1,6 @@
+/* So some of these are NEVER declared, but they're here for test purposes
+(as evidenced by the names literally being test haha)*/
+
 #box{
     height: 90px;
     width: 400px;
@@ -16,6 +19,13 @@
     position: absolute;
     right: 20px;
     top: 23px;
+}
+
+.results{
+    position: absolute;
+    top: 125px;
+    width: 1350px;
+    height: 1350px;
 }
 
 #test{
