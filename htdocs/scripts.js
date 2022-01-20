@@ -1,9 +1,10 @@
 var clicks = 0;
 var x;
+var currentSlide = 0;
 var firstTime = 0;
 var index_clicks = 0;
 var warning = 0;
-
+slideshow()
 
 //Slide/side menu functions
 
@@ -18,6 +19,20 @@ function closeSlideMenu(){
     document.getElementById('main').style.marginLeft = '0';
 }
 
+function slideshow(){ //slideshow function
+    var x;
+    var slides = document.getElementsByClassName('banner')
+
+    for (x = 0; x < slides.length; x++) {
+        slides[x].style.display = "none";
+    }
+    currentSlide++;
+    if (currentSlide > slides.length) {
+        currentSlide = 1;
+    }
+    slides[currentSlide-1].style.display = "block";
+    setTimeout(slideshow, 4000);
+}
 
 //misc
 function unfinished(){ //Unfinished site alert script (UNUSED, All sites are finished)
