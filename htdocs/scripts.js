@@ -8,84 +8,79 @@ var warning = 0;
 //Slide/side menu functions
 
 function openSlideMenu(){
-  document.getElementById('side-menu').style.width = '250px';
-  document.getElementById('main').style.marginLeft = '250px';
+    document.getElementById('side-menu').style.width = '250px';
+    document.getElementById('main').style.marginLeft = '250px';
 }
 
 
 function closeSlideMenu(){
-  document.getElementById('side-menu').style.width = '0';
-  document.getElementById('main').style.marginLeft = '0';
+    document.getElementById('side-menu').style.width = '0';
+    document.getElementById('main').style.marginLeft = '0';
 }
 
 
 //misc
 function unfinished(){ //Unfinished site alert script (UNUSED, All sites are finished)
-  alert("Sorry, but this site is unfinished!")
+    alert("Sorry, but this site is unfinished!")
 }
 
 
 //EASTER EGGS :DDDD
 function indexselfcredits(){ //index/home site easter egg works differently from content pages.
-  index_clicks += 1;
-  if (index_clicks == 20) {
-    alert("This was made by Paolo Galang of 9 - Argon, PSHS CBZRC B2025. Nothing to see here!");
-    index_clicks = 0;
-  }
+    index_clicks += 1;
+    if (index_clicks == 20) {
+        alert("This was made by Paolo Galang of 9 - Argon, PSHS CBZRC B2025. Nothing to see here!");
+        index_clicks = 0;
+    }
 }
 
 
 //Easter egg script for normal content pages
 function selfcredits(){
-  clicks += 1;
-  var x = document.getElementById("selfcredit");
+    clicks += 1;
+    var x = document.getElementById("selfcredit");
 
-  if (clicks == 19){ //why 19? no reason :D
-    if (x.style.display === "none") {
-      x.style.display = "block";
-      clicks = 0;
-      if (firstTime == 0){
-        alert("Wow, you unlocked an easter egg! Click the logo again 19 more times to remove it, and 19 again to restore.");
-        firstTime = 1;
-      }
-    } else {
-      x.style.display = "none";
-      clicks = 0;
+    if (clicks == 19){ //why 19? no reason :D
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            clicks = 0;
+            if (firstTime == 0){
+                alert("Wow, you unlocked an easter egg! Click the logo again 19 more times to remove it, and 19 again to restore.");
+                firstTime = 1;
+            }
+        } else {
+        x.style.display = "none";
+        clicks = 0;
+        }
     }
-  }
 }
 
 
 
 //easter egg for search page
 function searchcredits(){
-  clicks += 1;
-  var x = document.getElementById("results-area");
-  var y = document.getElementById('jump');
-  var z = document.getElementById('searchcreds');
+    clicks += 1;
+    var x = document.getElementById("results-area");
+    var y = document.getElementById('jump');
+    var z = document.getElementById('searchcreds');
 
-  if (clicks == 21){
-    if (x.style.display === "block") {
-      x.style.display = "none";
-      y.style.display = "block";
-      z.style.display = "block";
-      clicks = 0;
-      if (firstTime == 0){
-        alert("Wow, you unlocked an easter egg! Click the logo again 21 more times to remove it, and 21 again to restore.");
-        alert("If it hasn't loaded yet, give it a few more seconds, CSE takes up an awful amount of requests :D");
-        firstTime = 1;
-      }
-      window.scrollTo({ //someone said jquery is better (and it is shorter too), but let's stick to js for now
-          left: 0,
-          top: 200,
-      });
-    } else {
-      x.style.display = "block";
-      y.style.display = "none";
-      z.style.display = "none";
-      clicks = 0;
+    if (clicks == 21){
+        if (x.style.display === "block") {
+            x.style.display = "none";
+            y.style.display = "block";
+            z.style.display = "block";
+            window.scrollTo({ left: 0, top: 200, });
+            if (firstTime == 0){
+                alert("Wow, you unlocked an easter egg! Click the logo again 21 more times to remove it, and 21 again to restore.");
+                firstTime = 1;
+            }
+        } else {
+            x.style.display = "block";
+            y.style.display = "none";
+            z.style.display = "none";
+            clicks = 0;
+        }
     }
-  }
 }
 
 //Warning for results function
@@ -93,18 +88,14 @@ function warningFunc(){
     if (warning == 0){
         alert("WARNING: This search engine is powered by Google CSE. Results may be relevant BUT outdated.")
         warning += 1;
-        window.scrollTo({ //someone said jquery is better (and it is shorter too), but let's stick to js for now
-            left: 0,
-            top: 0,
-        });
+        window.scrollTo({ left: 0, top: 0, });
     }
 }
 
-if (document.title == "Pasama: Search"){ //This is the warning for search results
+if (document.title == "Pasama: Search"){ //This is the warning for search results, detect if page is search page
     var warning = 0;
     window.onload = warningFunc();
 }
-
 
 
 //button to top function
@@ -116,6 +107,3 @@ btnToTop.addEventListener("click", function() {
         behavior: "smooth" //this isn't transform, but it sure does work that way.
     });
 });
-
-//NOTE: So when I created this file, I'm not sure if it's considered an htdoc or mmfile??? So I placed it in htdocs with other
-//files lol, it could even be css but again, I just placed it here (htdocs folder).
