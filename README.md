@@ -9,7 +9,7 @@ summary in the form of a paragraph for each news bit. Dedicated to serving true,
 
 Bugs be expected, easter eggs be found!
 
-#### WIFI RECOMMENDED
+#### WIFI/SITE RECOMMENDED
 I used an online library for the scroll-to-top button, due to sprites being annoying when trying to resize them, and
 a sole image for a simple arrow-up icon being impractical. Thus, I just used an online library. If you aren't connected to
 wifi, the scroll button will still work but the arrow itself won't be there anymore.
@@ -31,19 +31,15 @@ Wabam! You're all done, and it should just direct you to the site itself. If the
 ### NOTE
 As of writing, the red alerts are gone, but you still never know. I'll keep the instructions just in case they come back.
 
-### FURTHER READING, WEBSITE
+**NOTE:** The GitHub Pages site will receive updates whenever I commit to GitHub. **As stated, the GitHub Pages site is recommended for usage, instead of the zip**. If you look at the commit history, I used to have another website hosted from a site called replit. I decided to drop that.
 
-No more CAPTCHA redirect.
-
-**NOTE:** The Github Pages site will receive updates whenever I commit to github. **As stated, the Github Pages site is recommended for usage, instead of the zip**. If you look at the commit history, I used to have another website hosted from a site called replit. I decided to drop that.
-
-**NOTE:** If you downloaded the release zip onto your system, it won't get updated, unlike the live site on github. You have to manually redownload the releases or directories everytime you want to get news updates (whenever I update, since in the first place this is simply a project) if you want to keep using the system-only version.
+**NOTE:** If you downloaded the release zip onto your system, it won't get updated, unlike the live site on GitHub. You have to manually redownload the releases or directories every time you want to get news updates (whenever I update, since in the first place this is simply a project) if you want to keep using the system-only version.
 
 ============================================================================================================================
 
 ## NOTE ON YT EMBEDS:
 It's a continuous struggle for website creators to provide a smooth experience for users, and that's the case for this.
-YT Embeds do reduce total storage taken when you, dear user, download the repository, but at the cost of the need for wifi
+YT Embeds do reduce total storage taken when you, dear user, download the repository, but at the cost of the need for Wi-Fi
 to view the video and an increase in the number of http requests when loading the site.
 
 I considered lazy loading/deferring the requests after seeing solutions online to try and ease the burden on the site,
@@ -109,7 +105,8 @@ for `ARTICLE TITLE` put the article title<br>
 for `DATE POSTED` put the date when the article was posted<br>
 for `ARTICLE MAIN BODY` just place the paragraph summary of each article (and in-text citation at the end).<br>
 
-Copy paste the result into the last part of the table in the respective topic of your article, right before the `</table>` tag.
+Paste the result into the last part of the table in the respective topic of your article, right before the `</table>` tag. If you download the repo,
+you'll see comments as to where to paste new articles.
 
 ### Extras:
 -**To add images**, you can create a new spritesheet and create a class for it in the topic's respective css file (each topic has one).<br>
