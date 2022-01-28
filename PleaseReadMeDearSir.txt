@@ -29,3 +29,7 @@ CURRENT PROBLEMS:
 changes images and AT THE SAME TIME the user will try to click on the sidebar menu button, the button won't respond. This is again, due to
 the thread being taken up by the slideshow function. Optimizations will be done next version. As for the problem itself, it resolves on its own
 after the slideshow function pauses for the current picture.
+
+EXTRA: "Why are you passing this only on the deadline?" Other than exams, I was trying to think of extra features to add to the site. While I can simply
+resubmit my AA1 because it already had transform and call it a day, I didn't really want to do that. That feels wrong. So, I added search with the help of
+CSE Google (which brings reliable results but outdated ones most of the time xd).
