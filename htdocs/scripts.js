@@ -11,6 +11,20 @@ function openSlideMenu(){
     document.getElementById('side-menu').style.width = '250px';
 }
 
+function slideshow(){ //slideshow function
+    var x;
+    var slides = document.getElementsByClassName('banner')
+
+    for (x = 0; x < slides.length; x++) {
+        slides[x].style.display = "none";
+    }
+    currentSlide++;
+    if (currentSlide > slides.length) {
+        currentSlide = 1;
+    }
+    slides[currentSlide-1].style.display = "block";
+    setTimeout(slideshow, 4000);
+}
 
 function closeSlideMenu(){
     document.getElementById('side-menu').style.width = '0';

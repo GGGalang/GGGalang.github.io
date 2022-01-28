@@ -12,12 +12,12 @@
 		<meta name="author" content="Paolo Galang">
 		<meta name="section" content="9-Argon">
 		<meta name="description" content="PASAMA Homepage.">
-		<meta name="keywords" content="PASAMA, news, newsbits">
+		<meta name="keywords" content="PASAMA, news, newsbits, homepage">
 
 	</head>
 
 	<style>
-		body {
+		body { /*Can't put this in stylesheet because it might conflict with other pages styles*/
 			overflow: scroll;
 			height: 800px;
 			overflow-x: hidden;
@@ -167,23 +167,7 @@
 <!--DO NOT TOUCH SCRIPTS/FUNCTIONS-->
 		<script src="./htdocs/scripts.js"></script>
 		<script>
-			var currentSlide = 0;
 			slideshow();
-
-			function slideshow(){ //slideshow function
-				var x;
-				var slides = document.getElementsByClassName('banner')
-
-				for (x = 0; x < slides.length; x++) {
-					slides[x].style.display = "none";
-				}
-				currentSlide++;
-				if (currentSlide > slides.length) {
-					currentSlide = 1;
-				}
-				slides[currentSlide-1].style.display = "block";
-				setTimeout(slideshow, 4000);
-			}
 		</script>
 	</body>
 </html>
