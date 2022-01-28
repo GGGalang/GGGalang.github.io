@@ -16,8 +16,10 @@ but I mean a LOT more easier. To the level where you can make articles directly 
 know. I might have to make some sort of database to store all that, and I'm not sure if I want to dive into the complicated world of DBs such as MongoDB.
 
 Another, simpler(?) idea is to USE TEXT FILES in order to store article content. I can probably "kind of" do something like this by using javascript,
-but I need a way where ALL article text is stored in ONE text file AND be able to APPLY STYLES on the text. Current methods I saw were embedding a text
-file with html/js but that embeds the WHOLE file. I need only certain lines of text. Furthermore, some solutions offered on sites like Stack overflow
+but I need a way where ALL article text is stored in ONE text file AND be able to APPLY STYLES on the text. Making a text file for EACH article is
+very impractical, and by very I mean VERY.
+
+Current methods I saw were embedding a text file with html/js but that embeds the WHOLE file. I need only certain lines of text. Furthermore, some solutions offered on sites like Stack overflow
 don't allow styles to be applied. If I want to make this good idea a reality, I need to do more research, maybe use a few libraries, who knows.
 
 There are more ideas in store for the future of this website, but for now, this is what we have. Cheers!
