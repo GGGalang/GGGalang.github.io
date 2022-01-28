@@ -28,37 +28,19 @@ stumble upon a red-alert on my site (it's essentially a pop-up warning you the s
 
 Wabam! You're all done, and it should just direct you to the site itself. If the red alert doesn't show up in the first place, great! Nothing to worry about.
 
-### NOTE
-As of writing, the red alerts are gone, but you still never know. I'll keep the instructions just in case they come back.
+### NOTES
+**NOTE** As of writing, the red alerts are gone, but you still never know. I'll keep the instructions just in case they come back.
 
 **NOTE:** The GitHub Pages site will receive updates whenever I commit to GitHub. **As stated, the GitHub Pages site is recommended for usage, instead of the zip**. If you look at the commit history, I used to have another website hosted from a site called replit. I decided to drop that.
 
-**NOTE:** If you downloaded the release zip onto your system, it won't get updated, unlike the live site on GitHub. You have to manually redownload the releases or directories every time you want to get news updates (whenever I update, since in the first place this is simply a project) if you want to keep using the system-only version.
-
-============================================================================================================================
-
-## NOTE ON YT EMBEDS:
-It's a continuous struggle for website creators to provide a smooth experience for users, and that's the case for this.
-YT Embeds do reduce total storage taken when you, dear user, download the repository, but at the cost of the need for Wi-Fi
-to view the video and an increase in the number of http requests when loading the site.
-
-I considered lazy loading/deferring the requests after seeing solutions online to try and ease the burden on the site,
-but the requirement for multimedia files was that they AUTOPLAY. On most if not all lazy loading solutions, they require the user
-to click on the video before it actually plays. I haven't actually seen any lazy loading solutions for autoplay vids,
-due to the fact that they need to be automatically played.
-
-Maybe I'll keep looking and searching for said solution, but until then, I hope the embeds don't make a difference (except of course
-when you aren't connected to the net. Realistically speaking, if this was a website then anyone using it would have net and thus
-have the video load.)
-
-=============================================================================================================================
+**NOTE:** If you downloaded the release zip onto your system, it won't get updated, unlike the live site hosted on GitHub. You have to manually redownload the releases or directories every time you want to get news updates (whenever I update, since in the first place this is simply a project) if you want to keep using the system-only version.
 
 ## STYLESHEET NOTES:
 1. I didn't bother adding pseudo classes for links such as visited.
 It's just weird to see the link be PERMANENTLY a different color, especially if it's a link
 like the home/title link or side menu links. I could add a visited state with the same properties but that's simply
 impractical.
- - The newsbite links themselves, as well as the home topics a-tags have visited and active states, though.
+ - The newsbite links themselves, as well as the home topics a-tags have visited and active states though.
 
 2. This stylesheet is long so be careful as you might get confused. The classes/ids are generally in order from:
 Title Navbar>Side Menu>Main body/Content>Footer>Misc (easter eggs). Ctrl + F always helps!
@@ -68,8 +50,6 @@ God knows how long this will be if all image classes are here.
 
 Extra note: All images are sprites, except big ones (like the index banner) where it's impractical to turn them into sprites, and favicon ico files.
 
-============================================================================================================================
-
 ## SOME DOCUMENTATION:
 
 ## MAIN ARTICLE CODE
@@ -77,22 +57,22 @@ Extra note: All images are sprites, except big ones (like the index banner) wher
 ```
 <article>
 
-  <tr>
-    <td rowspan="2" class="news-border news-extras">
-      <img class="article_pic">
-      <br><p class="ten">Credits: CREDITS</p>
-    </td>
+    <tr>
+        <td rowspan="2" class="news-border news-extras">
+            <img class="article_pic">
+            <br><p class="ten">Credits: CREDITS</p>
+        </td>
 
-    <th>
-      <h2 class="news-heads"><a href="link">ARTICLE TITLE</a></h2><p>DATE POSTED</p>
-    </th>
-  </tr>
+        <th>
+            <h2 class="news-heads"><a href="link">ARTICLE TITLE</a></h2><p>DATE POSTED</p>
+        </th>
+    </tr>
 
-  <tr>
-    <td class="news-border">
-      <p style="text-align: left;">ARTICLE MAIN BODYy</p>
-    </td>
-  </tr>
+    <tr>
+        <td class="news-border">
+            <p style="text-align: left;">ARTICLE MAIN BODYy</p>
+        </td>
+    </tr>
 
 </article>
 ```
@@ -107,6 +87,8 @@ for `ARTICLE MAIN BODY` just place the paragraph summary of each article (and in
 
 Paste the result into the last part of the table in the respective topic of your article, right before the `</table>` tag. If you download the repo,
 you'll see comments as to where to paste new articles.
+
+**For a live example, please go to htdocs/covid.html and look at the first article code for reference. There will be helpful comments!**
 
 ### Extras:
 -**To add images**, you can create a new spritesheet and create a class for it in the topic's respective css file (each topic has one).<br>
