@@ -5,8 +5,8 @@
 		<script src="https://kit.fontawesome.com/ecd4e23ea1.js" crossorigin="anonymous"></script>
         <script async src="https://cse.google.com/cse.js?cx=ec608ef21e42bedd5"></script>
 		<link rel="stylesheet" href="./css/search.css">
-		<link rel="icon" type="image/ico" href="./images/logo.ico">
 		<link rel="stylesheet" href="./css/stylesheet.css">
+		<link rel="icon" type="image/ico" href="./images/logo.ico">
 
 		<meta charset="UTF-8">
 		<meta name="author" content="Paolo Galang">
@@ -25,7 +25,6 @@
 	</style>
 
 <!--NAVBAR BEYOND THIS POINT-->
-<!--All links will be replaced with '#' if the website for it hasn't been made yet.-->
 
 	<body>
 		<div>
@@ -167,5 +166,24 @@
 
 <!--DO NOT TOUCH SCRIPTS/FUNCTIONS-->
 		<script src="./htdocs/scripts.js"></script>
+		<script>
+			var currentSlide = 0;
+			slideshow();
+
+			function slideshow(){ //slideshow function
+				var x;
+				var slides = document.getElementsByClassName('banner')
+
+				for (x = 0; x < slides.length; x++) {
+					slides[x].style.display = "none";
+				}
+				currentSlide++;
+				if (currentSlide > slides.length) {
+					currentSlide = 1;
+				}
+				slides[currentSlide-1].style.display = "block";
+				setTimeout(slideshow, 4000);
+			}
+		</script>
 	</body>
 </html>
