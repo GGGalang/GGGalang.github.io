@@ -21,3 +21,9 @@ file with html/js but that embeds the WHOLE file. I need only certain lines of t
 don't allow styles to be applied. If I want to make this good idea a reality, I need to do more research, maybe use a few libraries, who knows.
 
 There are more ideas in store for the future of this website, but for now, this is what we have. Cheers!
+
+CURRENT PROBLEMS:
+- When index/home banner changes images, it of course calls for the change image function. This takes up a thread. So whenever the image banner
+changes images and AT THE SAME TIME the user will try to click on the sidebar menu button, the button won't respond. This is again, due to
+the thread being taken up by the slideshow function. Optimizations will be done next version. As for the problem itself, it resolves on its own
+after the slideshow function pauses for the current picture.
