@@ -1,3 +1,13 @@
+body {
+    overflow: scroll;
+    height: 2450px;
+    overflow-x: hidden;
+}
+
+th p{
+    text-align: left;
+}
+
 .duterte-face{
   background: url('../images/politics.png') no-repeat -1px -96px;
 	width: 140px;

@@ -1,6 +1,12 @@
 /* So some of these are NEVER declared, but they're here for test purposes
 (as evidenced by the names literally being test haha)*/
 
+body {
+    overflow: scroll;
+    height: 1150px;
+    overflow-x: hidden;
+}
+
 #jump{
     position: absolute;
     top: 200px;
